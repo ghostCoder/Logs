@@ -1,0 +1,674 @@
+Log Collector version: 1.1.0
+Device model: MT15i
+Firmware version: 2.3.4
+Kernel version: 2.6.32.9-perf
+SEMCUser@SEMCHost )
+#1 PREEMPT Mon Sep 19 08:03:47 2011
+Build number: 4.0.2.A.0.42
+
+--------- beginning of /dev/log/system
+01-19 15:11:25.272 W/InputManagerService(  233): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@2b1fe480
+01-19 15:11:27.492 I/ActivityManager(  233): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.sonyericsson.home/.HomeActivity } from pid 233
+01-19 15:11:33.222 I/ActivityManager(  233): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=e2o.mobile/.Home bnds=[238,589][351,747] } from pid 11697
+01-19 15:11:33.272 I/ActivityManager(  233): Start proc e2o.mobile for activity e2o.mobile/.Home: pid=11800 uid=10025 gids={1006, 3003, 1015}
+01-19 15:11:33.942 I/ActivityManager(  233): Process com.sonyericsson.gallery (pid 11769) has died.
+01-19 15:11:33.992 I/WindowManager(  233): WINDOW DIED Window{2b029900 org.jtb.alogcat/org.jtb.alogcat.LogActivity paused=false}
+01-19 15:11:34.012 I/ActivityManager(  233): Process org.jtb.alogcat (pid 11786) has died.
+01-19 15:11:34.022 W/WindowManager(  233): Failed looking up window
+01-19 15:11:34.022 W/WindowManager(  233): java.lang.IllegalArgumentException: Requested window android.os.BinderProxy@2b519208 does not exist
+01-19 15:11:34.022 W/WindowManager(  233): at com.android.server.WindowManagerService.windowForClientLocked(WindowManagerService.java:8361)
+01-19 15:11:34.022 W/WindowManager(  233): at com.android.server.WindowManagerService.windowForClientLocked(WindowManagerService.java:8352)
+01-19 15:11:34.022 W/WindowManager(  233): at com.android.server.WindowManagerService$WindowState$DeathRecipient.binderDied(WindowManagerService.java:7210)
+01-19 15:11:34.022 W/WindowManager(  233): at android.os.BinderProxy.sendDeathNotice(Binder.java:389)
+01-19 15:11:34.022 W/WindowManager(  233): at dalvik.system.NativeStart.run(Native Method)
+01-19 15:11:34.022 I/WindowManager(  233): WIN DEATH: null
+01-19 15:11:36.692 I/ActivityManager(  233): Process com.sonyericsson.customization (pid 11683) has died.
+01-19 15:11:36.692 I/ActivityManager(  233): Low Memory: No more background processes.
+01-19 15:11:38.652 I/ActivityManager(  233): Start proc com.sonyericsson.customization for content provider com.sonyericsson.provider.customization/.CustomizationProvider: pid=11820 uid=10063 gids={}
+01-19 15:11:38.812 I/ActivityManager(  233): Process com.sonyericsson.customization (pid 11820) has died.
+01-19 15:11:38.812 I/ActivityManager(  233): Low Memory: No more background processes.
+01-19 15:11:45.962 I/ActivityManager(  233): Start proc com.sonyericsson.customization for content provider com.sonyericsson.provider.customization/.CustomizationProvider: pid=11827 uid=10063 gids={}
+01-19 15:11:46.352 I/ActivityManager(  233): Process com.sonyericsson.customization (pid 11827) has died.
+01-19 15:11:46.352 I/ActivityManager(  233): Low Memory: No more background processes.
+01-19 15:12:07.452 I/ActivityManager(  233): Start proc com.sonyericsson.customization for content provider com.sonyericsson.provider.customization/.CustomizationProvider: pid=11836 uid=10063 gids={}
+01-19 15:12:07.922 I/ActivityManager(  233): Process com.sonyericsson.customization (pid 11836) has died.
+01-19 15:12:07.922 I/ActivityManager(  233): Low Memory: No more background processes.
+01-19 15:12:11.162 I/ActivityManager(  233): Process com.sonyericsson.home (pid 11697) has died.
+01-19 15:12:11.162 I/ActivityManager(  233): Low Memory: No more background processes.
+01-19 15:12:11.162 I/WindowManager(  233): WIN DEATH: Window{2b319cc0 com.sonyericsson.home/com.sonyericsson.home.HomeActivity paused=false}
+01-19 15:12:20.072 W/InputManagerService(  233): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@2b4af068
+01-19 15:12:21.322 I/ActivityManager(  233): Start proc android.process.media for content provider com.android.providers.media/.MediaProvider: pid=11845 uid=10002 gids={1015, 2001, 3003}
+01-19 15:12:21.942 I/ActivityManager(  233): Starting: Intent { act=android.media.action.IMAGE_CAPTURE cmp=android/com.android.internal.app.ResolverActivity (has extras) } from pid 11800
+01-19 15:12:27.782 I/ActivityManager(  233): Starting: Intent { act=android.media.action.IMAGE_CAPTURE flg=0x3800000 cmp=com.sonyericsson.android.camera/.CameraActivityForCaptureOnly (has extras) } from pid 233
+01-19 15:12:27.862 I/ActivityManager(  233): Start proc com.sonyericsson.android.camera for activity com.sonyericsson.android.camera/.CameraActivityForCaptureOnly: pid=11853 uid=10082 gids={1006, 1015}
+01-19 15:12:27.982 I/WindowManager(  233): Setting rotation to 1, animFlags=1
+01-19 15:12:28.002 I/ActivityManager(  233): Config changed: { scale=1.0 imsi=404/13 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=2 layout=34 uiMode=17 theme=ComponentInfo{com.sonyericsson.defaultruntimethemes/com.sonyericsson.defaultruntimethemes.BlackThemeService} seq=891}
+01-19 15:12:28.252 I/ActivityManager(  233): Start proc com.sonyericsson.customization for content provider com.sonyericsson.provider.customization/.CustomizationProvider: pid=11860 uid=10063 gids={}
+01-19 15:12:28.262 I/ActivityManager(  233): Process android.process.media (pid 11845) has died.
+01-19 15:12:28.562 I/ActivityManager(  233): Start proc com.sonyericsson.conversations for content provider com.sonyericsson.conversations/.provider.ConversationsSettingsProvider: pid=11867 uid=10038 gids={3003, 1015}
+01-19 15:12:28.872 I/ActivityManager(  233): Process e2o.mobile (pid 11800) has died.
+01-19 15:12:28.872 I/ActivityManager(  233): Low Memory: No more background processes.
+01-19 15:12:28.872 I/WindowManager(  233): WIN DEATH: Window{2b469360 e2o.mobile/e2o.mobile.Home paused=false}
+--------- beginning of /dev/log/main
+01-19 15:12:29.232 I/StagefrightPlayer(17252): setDataSource('/system/media/audio/ui/camera_click.ogg')
+01-19 15:12:29.232 D/DrmManager(Native)(  122): DrmManager::openDecryptSession: no capable plug-in found
+01-19 15:12:29.232 D/IDrmManagerService(Native)(  122): NULL decryptHandle is returned
+01-19 15:12:29.232 D/IDrmManagerService(Native)(17252): no decryptHandle is generated in service side
+01-19 15:12:29.252 I/StagefrightPlayer(17252): setDataSource('/system/media/audio/ui/VideoRecord.ogg')
+01-19 15:12:29.252 D/DrmManager(Native)(  122): DrmManager::openDecryptSession: no capable plug-in found
+01-19 15:12:29.252 D/IDrmManagerService(Native)(  122): NULL decryptHandle is returned
+01-19 15:12:29.252 D/IDrmManagerService(Native)(17252): no decryptHandle is generated in service side
+01-19 15:12:29.462 W/AudioService(  233): stream was not muted by this client
+01-19 15:12:29.462 E/AudioService(  233): Could not get client death handler for stream: 5
+01-19 15:12:29.462 W/AudioService(  233): stream was not muted by this client
+01-19 15:12:29.462 E/AudioService(  233): Could not get client death handler for stream: 5
+01-19 15:12:29.574 I/ActivityManager(  233): Displayed com.sonyericsson.android.camera/.CameraActivityForCaptureOnly: +1s729ms
+01-19 15:12:29.652 W/InputManagerService(  233): Got RemoteException sending setActive(false) notification to pid 11800 uid 10025
+01-19 15:12:29.662 D/kernel  (  130): [263112.734252] binder: 1093:1093 transaction failed 29189, size 88-0
+01-19 15:12:29.682 D/CustomizationProvider(11860): openFile -- START uri=content://com.sonyericsson.provider.customization/settings/com.sonyericsson.textinput.uxp
+01-19 15:12:29.682 I/CustomizationProvider(11860): No configuration file: /system/etc/customization/settings/com/sonyericsson/textinput/uxp/custom_settings.xml
+01-19 15:12:29.692 D/kernel  (  130): [263112.768676] mdp4_overlay_pipe_alloc: pipe=80742808 ndx=5
+01-19 15:12:29.692 D/kernel  (  130): [263112.768676] mpd4_overlay_req2pipe: zorder=0 pipe_num=2
+01-19 15:12:29.722 D/kernel  (  130): [263112.789794] mdp4_dtv_on: <ID=0 1280x720 (110,40,220), (5,5,20) 74MHz>
+01-19 15:12:29.722 D/kernel  (  130): [263112.789855] mdp4_overlay_pipe_alloc: pipe=80742964 ndx=6
+01-19 15:12:29.722 D/kernel  (  130): [263112.789855] mpd4_overlay_req2pipe: zorder=0 pipe_num=3
+01-19 15:12:29.722 D/kernel  (  130): [263112.799133] msm_enqueue: queue control new max is 1
+01-19 15:12:29.722 I/caladbolg(17252): 1635671306 cald_capctrl.c                    (6128) 11880 P [CAP] 1635671306 + Cald_CapCtrl_FSM_Func_StartPreview
+01-19 15:12:29.732 I/caladbolg(17252): 1635672771 cald_hal_qct.c                    (2983) 11880 P [HAL] 1635672740 + Cald_Hal_Qct_If_StartPreview
+01-19 15:12:29.742 W/kernel  (  130): [263112.813140] msm_pp_release: pp not in progress for 0
+01-19 15:12:29.774 I/caladbolg(17252): 1635715129 cald_hal_qct.c                    (3042) 11880 P [HAL] 1635715099 - Cald_Hal_Qct_If_StartPreview (0)
+01-19 15:12:29.774 I/caladbolg(17252): 1635715221 cald_hal_qct.c                    (6612) 11880 P [HAL] 1635715221 + Cald_Hal_Qct_If_CreateImageConvert
+01-19 15:12:29.774 I/caladbolg(17252): 1635716136 cald_hal_qct.c                    (6890) 11880 P [HAL] 1635716136 - Cald_Hal_Qct_If_CreateImageConvert (0)
+01-19 15:12:29.774 I/caladbolg(17252): 1635716228 cald_capctrl.c                    (6358) 11880 P [CAP] 1635716228 - Cald_CapCtrl_FSM_Func_StartPreview
+01-19 15:12:29.792 I/StagefrightPlayer(17252): setDataSource('/system/media/audio/camera/sound1/shutter.m4a')
+01-19 15:12:29.792 D/DrmManager(Native)(  122): DrmManager::openDecryptSession: no capable plug-in found
+01-19 15:12:29.792 D/IDrmManagerService(Native)(  122): NULL decryptHandle is returned
+01-19 15:12:29.792 D/IDrmManagerService(Native)(17252): no decryptHandle is generated in service side
+01-19 15:12:29.812 I/caladbolg(17252): 1635755748 cald_capctrl.c                    (6755) 11880 P [CAP] 1635755748 + Cald_CapCtrl_FSM_Func_StartFaceDetection
+01-19 15:12:29.812 I/caladbolg(17252): 1635761272 cald_capctrl.c                    (6770) 11880 P [CAP] 1635761241 - Cald_CapCtrl_FSM_Func_StartFaceDetection
+01-19 15:12:29.812 I/caladbolg(17252): 1635761424 cald_capctrl.c                    (8235) 11880 P [CAP] 1635761424 + Cald_CapCtrl_FSM_Func_Face_StartDone
+01-19 15:12:29.812 I/caladbolg(17252): 1635761485 cald_capctrl.c                    (8246) 11880 P [CAP] 1635761455 - Cald_CapCtrl_FSM_Func_Face_StartDone
+01-19 15:12:29.842 I/caladbolg(17252): 1635786662 cald_camctrl.c                    (4562) 11878 P [SVR] 1635786662 + Cald_CamCtrl_ICamera_StartAutoLock
+01-19 15:12:29.842 I/caladbolg(17252): 1635786784 cald_camctrl.c                    (4570) 11878 P [SVR] 1635786784 - Cald_CamCtrl_ICamera_StartAutoLock (0)
+01-19 15:12:30.102 I/caladbolg(17252): 1636047496 cald_camctrl.c                    (9383) 11880 P [SVR] 1636047465 + Cald_CamCtrl_FSM_Func_StartAutoLock
+01-19 15:12:30.102 I/caladbolg(17252): 1636047618 cald_camctrl.c                    (9421) 11880 P [SVR] 1636047588 - Cald_CamCtrl_FSM_Func_StartAutoLock (0)
+01-19 15:12:30.102 I/caladbolg(17252): 1636047649 cald_camctrl.c                   (14164) 11880 P [SVR] 1636047649 + Cald_CamCtrl_FSM_Func_FrameDoneVF
+01-19 15:12:30.102 I/caladbolg(17252): 1636047710 cald_camctrl.c                   (14174) 11880 P [SVR] 1636047710 - Cald_CamCtrl_FSM_Func_FrameDoneVF
+01-19 15:12:30.782 I/caladbolg(17252): 1636723338 cald_camctrl.c                    (4092) 11886 P [SVR] 1636723277 + Cald_CamCtrl_ICBIqCtrl_AutoLockDone
+01-19 15:12:30.782 I/caladbolg(17252): 1636723735 cald_camctrl.c                   (14519) 11886 P [SVR] 1636723704 + Cald_CamCtrl_FSM_Func_AutoLockDone
+01-19 15:12:30.782 I/caladbolg(17252): 1636724010 cald_camctrl.c                   (14535) 11886 P [SVR] 1636723979 - Cald_CamCtrl_FSM_Func_AutoLockDone
+01-19 15:12:30.782 I/caladbolg(17252): 1636724193 cald_camctrl.c                    (4107) 11886 P [SVR] 1636724193 - Cald_CamCtrl_ICBIqCtrl_AutoLockDone (0)
+01-19 15:12:30.802 I/StagefrightPlayer(17252): setDataSource('/system/media/audio/camera/common/af_success.m4a')
+01-19 15:12:30.802 D/DrmManager(Native)(  122): DrmManager::openDecryptSession: no capable plug-in found
+01-19 15:12:30.802 D/IDrmManagerService(Native)(  122): NULL decryptHandle is returned
+01-19 15:12:30.812 D/IDrmManagerService(Native)(17252): no decryptHandle is generated in service side
+01-19 15:12:30.822 E/AudioPolicyManagerBase(17252): unknown stream type
+01-19 15:12:30.822 E/AudioPolicyManagerBase(17252): unknown stream type
+01-19 15:12:30.832 I/AudioHardwareMSM7X30(17252): Routing audio to Speakerphone
+01-19 15:12:30.832 I/AudioHardwareMSM7X30(17252): Change routing audio to speaker for xLOUD
+01-19 15:12:30.872 D/AudioHardwareMSM7X30(17252): value of device and enable is 32 1
+01-19 15:12:30.882 D/kernel  (  130): [263113.953613] [msm7x30.c:msm_device_put] device xloud_speaker_mono_rx set 1
+01-19 15:12:30.882 D/kernel  (  130): [263113.953674] [msm7x30.c:msm_device_put] device freq =48000
+01-19 15:12:30.892 D/kernel  (  130): [263113.963806] [adsp.c:msm_adsp_get] module AFETASK has been registered
+01-19 15:12:30.892 D/kernel  (  130): [263113.963867] [adsp.c:msm_adsp_enable] enable 'AFETASK'state[0] id[17227119]
+01-19 15:12:30.892 D/kernel  (  130): [263113.969085] [adsp.c:adsp_rtos_mtoa_cb] rpc event=0, proc_id=2, module=17227119, image=0
+01-19 15:12:30.892 D/kernel  (  130): [263113.969146] [adsp.c:adsp_rtos_mtoa_cb] module AFETASK: READY
+01-19 15:12:30.922 I/caladbolg(17252): 1636864452 cald_camctrl.c                    (4526) 11878 P [SVR] 1636864452 + Cald_CamCtrl_ICamera_TakeSnapshot
+01-19 15:12:30.922 I/caladbolg(17252): 1636864574 cald_camctrl.c                    (8980) 11878 P [SVR] 1636864574 + Cald_CamCtrl_FSM_Func_TakeSnapshot
+01-19 15:12:30.922 I/caladbolg(17252): 1636866740 cald_camctrl.c                    (9110) 11878 P [SVR] 1636866710 - Cald_CamCtrl_FSM_Func_TakeSnapshot (0)
+01-19 15:12:30.922 I/caladbolg(17252): 1636866832 cald_camctrl.c                    (4536) 11878 P [SVR] 1636866832 - Cald_CamCtrl_ICamera_TakeSnapshot (0)
+01-19 15:12:30.932 I/caladbolg(17252): 1636876842 cald_camctrl.c                    (4115) 11886 P [SVR] 1636876842 + Cald_CamCtrl_ICBIqCtrl_PrepareSnapshotDone
+01-19 15:12:30.932 I/caladbolg(17252): 1636877025 cald_camctrl.c                    (4129) 11886 P [SVR] 1636876994 - Cald_CamCtrl_ICBIqCtrl_PrepareSnapshotDone (0)
+01-19 15:12:30.932 I/caladbolg(17252): 1636880290 cald_capctrl.c                    (6468) 11880 P [CAP] 1636880260 + Cald_CapCtrl_FSM_Func_StartSnapshot
+01-19 15:12:30.932 I/caladbolg(17252): 1636880382 cald_hal_qct.c                    (3054) 11880 P [HAL] 1636880351 + Cald_Hal_Qct_If_StopPreview
+01-19 15:12:30.932 I/caladbolg(17252): 1636881725 cald_hal_qct.c                    (3087) 11880 P [HAL] 1636881694 - Cald_Hal_Qct_If_StopPreview (0)
+01-19 15:12:30.932 I/caladbolg(17252): 1636881816 cald_hal_qct.c                    (7007) 11880 P [HAL] 1636881786 + Cald_Hal_Qct_If_DeleteImageConvert
+01-19 15:12:30.942 I/caladbolg(17252): 1636882732 cald_hal_qct.c                    (7036) 11880 P [HAL] 1636882732 - Cald_Hal_Qct_If_DeleteImageConvert (0)
+01-19 15:12:30.942 I/caladbolg(17252): 1636883556 cald_capctrl.c                    (6711) 11880 P [CAP] 1636883525 - Cald_CapCtrl_FSM_Func_StartSnapshot
+01-19 15:12:30.952 E/AudioPolicyManagerBase(17252): unknown stream type
+01-19 15:12:30.952 E/AudioPolicyManagerBase(17252): unknown stream type
+01-19 15:12:30.952 E/AudioPolicyManagerBase(17252): unknown stream type
+01-19 15:12:30.952 E/AudioPolicyManagerBase(17252): unknown stream type
+01-19 15:12:30.962 D/kernel  (  130): [263114.031005] msm_snddev_poweramp_on: power on amplifier
+01-19 15:12:30.962 D/kernel  (  130): [263114.031097] [adsp.c:msm_adsp_get] module AUDPPTASK has been registered
+01-19 15:12:30.962 D/kernel  (  130): [263114.031127] [adsp.c:msm_adsp_enable] enable 'AUDPPTASK'state[0] id[17227122]
+01-19 15:12:30.962 D/kernel  (  130): [263114.032012] [adsp.c:adsp_rtos_mtoa_cb] rpc event=0, proc_id=2, module=17227122, image=0
+01-19 15:12:30.962 D/kernel  (  130): [263114.032043] [adsp.c:adsp_rtos_mtoa_cb] module AUDPPTASK: READY
+01-19 15:12:30.962 D/kernel  (  130): [263114.035308] [audpp.c:audpp_dsp_event] ENABLE
+01-19 15:12:30.962 I/caladbolg(17252): 1636904491 cald_hal_qct.c                    (3100) 11880 P [HAL] 1636904491 + Cald_Hal_Qct_If_StartSnapshot
+01-19 15:12:30.992 D/dalvikvm(11853): GC_EXPLICIT freed 773K, 48% free 3562K/6727K, external 4407K/5340K, paused 69ms
+01-19 15:12:31.262 I/caladbolg(17252): 1637208324 cald_hal_qct.c                    (3170) 11880 P [HAL] 1637208293 - Cald_Hal_Qct_If_StartSnapshot (0)
+01-19 15:12:31.262 I/caladbolg(17252): 1637208507 cald_capctrl.c                    (7261) 11880 P [CAP] 1637208507 + Cald_CapCtrl_FSM_Func_Hal_SnapshotImageDone
+01-19 15:12:31.262 I/caladbolg(17252): 1637208568 cald_capctrl.c                    (7364) 11880 P [CAP] 1637208568 - Cald_CapCtrl_FSM_Func_Hal_SnapshotImageDone
+01-19 15:12:31.262 I/caladbolg(17252): 1637208659 cald_capctrl.c                    (7036) 11880 P [CAP] 1637208659 + Cald_CapCtrl_FSM_Func_Hal_Shutter
+01-19 15:12:31.262 I/caladbolg(17252): 1637208690 cald_camctrl.c                    (3940) 11880 P [SVR] 1637208690 + Cald_CamCtrl_ICBCapCtrl_CamShutter
+01-19 15:12:31.262 I/caladbolg(17252): 1637208751 cald_camctrl.c                   (14363) 11880 P [SVR] 1637208751 + Cald_CamCtrl_FSM_Func_CamShutter
+01-19 15:12:31.262 I/caladbolg(17252): 1637208842 cald_camctrl.c                   (14379) 11880 P [SVR] 1637208812 - Cald_CamCtrl_FSM_Func_CamShutter (0)
+01-19 15:12:31.262 I/caladbolg(17252): 1637208873 cald_camctrl.c                    (3954) 11880 P [SVR] 1637208873 - Cald_CamCtrl_ICBCapCtrl_CamShutter (0)
+01-19 15:12:31.262 I/caladbolg(17252): 1637208934 cald_capctrl.c                    (7046) 11880 P [CAP] 1637208934 - Cald_CapCtrl_FSM_Func_Hal_Shutter
+01-19 15:12:31.262 I/caladbolg(17252): 1637208995 cald_capctrl.c                    (7261) 11880 P [CAP] 1637208995 + Cald_CapCtrl_FSM_Func_Hal_SnapshotImageDone
+01-19 15:12:31.262 I/caladbolg(17252): 1637209056 cald_capctrl.c                    (7364) 11880 P [CAP] 1637209056 - Cald_CapCtrl_FSM_Func_Hal_SnapshotImageDone
+01-19 15:12:31.272 E/AudioPolicyManagerBase(17252): unknown stream type
+01-19 15:12:31.272 E/AudioPolicyManagerBase(17252): unknown stream type
+01-19 15:12:31.272 I/AudioHardwareMSM7X30(17252): Routing audio to Speakerphone
+01-19 15:12:31.272 I/AudioHardwareMSM7X30(17252): Change routing audio to speaker for xLOUD
+01-19 15:12:31.492 E/AudioPolicyManagerBase(17252): unknown stream type
+01-19 15:12:31.492 E/AudioPolicyManagerBase(17252): unknown stream type
+01-19 15:12:31.492 E/AudioPolicyManagerBase(17252): unknown stream type
+01-19 15:12:31.492 E/AudioPolicyManagerBase(17252): unknown stream type
+01-19 15:12:31.782 D/dalvikvm(  233): GC_EXPLICIT freed 331K, 47% free 8897K/16519K, external 11174K/13222K, paused 130ms
+01-19 15:12:31.862 I/caladbolg(17252): 1637803874 cald_capctrl.c                    (7811) 11880 P [CAP] 1637803844 + Cald_CapCtrl_FSM_Func_ImageStab_AllProcDone
+01-19 15:12:31.862 I/caladbolg(17252): 1637806316 cald_hal_qct.c                    (4852) 11880 P [HAL] 1637806316 + Cald_Hal_Qct_If_StartResize
+01-19 15:12:31.862 I/caladbolg(17252): 1637806529 cald_hal_qct.c                    (4899) 11880 P [HAL] 1637806529 - Cald_Hal_Qct_If_StartResize (0)
+01-19 15:12:31.862 I/caladbolg(17252): 1637806590 cald_capctrl.c                    (7925) 11880 P [CAP] 1637806590 - Cald_CapCtrl_FSM_Func_ImageStab_AllProcDone
+01-19 15:12:31.922 I/caladbolg(17252): 1637867595 cald_capctrl.c                    (7522) 11880 P [CAP] 1637867564 + Cald_CapCtrl_FSM_Func_Hal_ResizeDone
+01-19 15:12:31.922 I/caladbolg(17252): 1637867686 cald_hal_qct.c                    (4915) 11880 P [HAL] 1637867656 + Cald_Hal_Qct_If_StopResize
+01-19 15:12:31.922 I/caladbolg(17252): 1637868358 cald_hal_qct.c                    (4945) 11880 P [HAL] 1637868358 - Cald_Hal_Qct_If_StopResize (0)
+01-19 15:12:31.922 I/caladbolg(17252): 1637868449 cald_camctrl.c                    (3987) 11880 P [SVR] 1637868449 + Cald_CamCtrl_ICBCapCtrl_ThumbnailDone
+01-19 15:12:31.922 I/caladbolg(17252): 1637868510 cald_camctrl.c                   (14400) 11880 P [SVR] 1637868510 + Cald_CamCtrl_FSM_Func_ThumbnailDone
+01-19 15:12:31.922 I/caladbolg(17252): 1637868571 cald_camctrl.c                   (14425) 11880 P [SVR] 1637868571 - Cald_CamCtrl_FSM_Func_ThumbnailDone (0)
+01-19 15:12:31.922 I/caladbolg(17252): 1637868632 cald_camctrl.c                    (4002) 11880 P [SVR] 1637868632 - Cald_CamCtrl_ICBCapCtrl_ThumbnailDone (0)
+01-19 15:12:31.922 I/caladbolg(17252): 1637868663 cald_hal_qct.c                    (4852) 11880 P [HAL] 1637868663 + Cald_Hal_Qct_If_StartResize
+01-19 15:12:31.922 I/caladbolg(17252): 1637868816 cald_hal_qct.c                    (4899) 11880 P [HAL] 1637868816 - Cald_Hal_Qct_If_StartResize (0)
+01-19 15:12:31.922 I/caladbolg(17252): 1637868877 cald_capctrl.c                    (7618) 11880 P [CAP] 1637868877 - Cald_CapCtrl_FSM_Func_Hal_ResizeDone
+01-19 15:12:31.972 I/caladbolg(17252): 1637914104 cald_capctrl.c                    (7522) 11880 P [CAP] 1637914073 + Cald_CapCtrl_FSM_Func_Hal_ResizeDone
+01-19 15:12:31.972 I/caladbolg(17252): 1637914226 cald_hal_qct.c                    (4915) 11880 P [HAL] 1637914226 + Cald_Hal_Qct_If_StopResize
+01-19 15:12:31.972 I/caladbolg(17252): 1637915080 cald_hal_qct.c                    (4945) 11880 P [HAL] 1637915080 - Cald_Hal_Qct_If_StopResize (0)
+01-19 15:12:31.972 I/caladbolg(17252): 1637917308 cald_hal_qct.c                    (4740) 11880 P [HAL] 1637917308 + Cald_Hal_Qct_If_StartYuvToJpeg
+01-19 15:12:31.982 I/caladbolg(17252): 1637923045 cald_hal_qct.c                    (4791) 11880 P [HAL] 1637923045 - Cald_Hal_Qct_If_StartYuvToJpeg (0)
+01-19 15:12:31.982 I/caladbolg(17252): 1637923198 cald_capctrl.c                    (7618) 11880 P [CAP] 1637923198 - Cald_CapCtrl_FSM_Func_Hal_ResizeDone
+01-19 15:12:32.022 I/caladbolg(17252): 1637970744 cald_capctrl.c                    (7638) 11880 P [CAP] 1637970714 + Cald_CapCtrl_FSM_Func_Hal_EncodeDone
+01-19 15:12:32.032 E/kernel  (  130): [263115.108337] VFS: Close: file count is 0
+01-19 15:12:32.032 E/kernel  (  130): [263115.108398] VFS: Close: file count is 0
+01-19 15:12:32.032 I/caladbolg(17252): 1637973766 cald_camctrl.c                    (4013) 11880 P [SVR] 1637973766 + Cald_CamCtrl_ICBCapCtrl_SnapshotDone
+01-19 15:12:32.032 I/caladbolg(17252): 1637973918 cald_camctrl.c                   (14438) 11880 P [SVR] 1637973918 + Cald_CamCtrl_FSM_Func_SnapshotDone
+01-19 15:12:32.032 I/caladbolg(17252): 1637974040 cald_camctrl.c                   (14483) 11880 P [SVR] 1637974040 - Cald_CamCtrl_FSM_Func_SnapshotDone (0)
+01-19 15:12:32.032 I/caladbolg(17252): 1637974132 cald_camctrl.c                    (4029) 11880 P [SVR] 1637974101 - Cald_CamCtrl_ICBCapCtrl_SnapshotDone (0)
+01-19 15:12:32.032 I/caladbolg(17252): 1637974162 cald_hal_qct.c                    (3182) 11880 P [HAL] 1637974162 + Cald_Hal_Qct_If_StopSnapshot
+01-19 15:12:32.032 I/caladbolg(17252): 1637974254 cald_hal_qct.c                    (3211) 11880 P [HAL] 1637974254 - Cald_Hal_Qct_If_StopSnapshot (0)
+01-19 15:12:32.032 I/caladbolg(17252): 1637974773 cald_capctrl.c                    (7713) 11880 P [CAP] 1637974773 - Cald_CapCtrl_FSM_Func_Hal_EncodeDone
+01-19 15:12:32.032 I/caladbolg(17252): 1637977550 cald_capctrl.c                    (6371) 11880 P [CAP] 1637977550 + Cald_CapCtrl_FSM_Func_StopPreview
+01-19 15:12:32.032 I/caladbolg(17252): 1637977672 cald_hal_qct.c                    (3054) 11880 P [HAL] 1637977641 + Cald_Hal_Qct_If_StopPreview
+01-19 15:12:32.032 I/caladbolg(17252): 1637977733 cald_hal_qct.c                    (3087) 11880 P [HAL] 1637977733 - Cald_Hal_Qct_If_StopPreview (0)
+01-19 15:12:32.032 I/caladbolg(17252): 1637979411 cald_capctrl.c                    (6382) 11880 P [CAP] 1637979381 - Cald_CapCtrl_FSM_Func_StopPreview
+01-19 15:12:32.042 I/caladbolg(17252): 1637986278 cald_capctrl.c                    (6128) 11880 P [CAP] 1637986247 + Cald_CapCtrl_FSM_Func_StartPreview
+01-19 15:12:32.042 I/caladbolg(17252): 1637987834 cald_hal_qct.c                    (2983) 11880 P [HAL] 1637987804 + Cald_Hal_Qct_If_StartPreview
+01-19 15:12:32.052 W/kernel  (  130): [263115.127014] msm_pp_release: pp not in progress for 0
+01-19 15:12:32.062 I/caladbolg(17252): 1638009135 cald_hal_qct.c                    (3042) 11880 P [HAL] 1638009135 - Cald_Hal_Qct_If_StartPreview (0)
+01-19 15:12:32.062 I/caladbolg(17252): 1638009257 cald_hal_qct.c                    (6612) 11880 P [HAL] 1638009257 + Cald_Hal_Qct_If_CreateImageConvert
+01-19 15:12:32.062 I/caladbolg(17252): 1638010020 cald_hal_qct.c                    (6890) 11880 P [HAL] 1638009990 - Cald_Hal_Qct_If_CreateImageConvert (0)
+01-19 15:12:32.062 I/caladbolg(17252): 1638010081 cald_capctrl.c                    (6358) 11880 P [CAP] 1638010081 - Cald_CapCtrl_FSM_Func_StartPreview
+01-19 15:12:32.062 I/caladbolg(17252): 1638010265 cald_capctrl.c                    (8235) 11880 P [CAP] 1638010265 + Cald_CapCtrl_FSM_Func_Face_StartDone
+01-19 15:12:32.062 I/caladbolg(17252): 1638010326 cald_capctrl.c                    (8246) 11880 P [CAP] 1638010326 - Cald_CapCtrl_FSM_Func_Face_StartDone
+01-19 15:12:32.062 I/caladbolg(17252): 1638010509 cald_camctrl.c                    (4579) 11878 P [SVR] 1638010478 + Cald_CamCtrl_ICamera_CancelAutoLock
+01-19 15:12:32.062 I/caladbolg(17252): 1638010600 cald_camctrl.c                    (9432) 11878 P [SVR] 1638010600 + Cald_CamCtrl_FSM_Func_CancelAutoLock
+01-19 15:12:32.162 I/caladbolg(17252): 1638107768 cald_camctrl.c                    (9454) 11878 P [SVR] 1638107738 - Cald_CamCtrl_FSM_Func_CancelAutoLock (0)
+01-19 15:12:32.162 I/caladbolg(17252): 1638107982 cald_camctrl.c                    (4584) 11878 P [SVR] 1638107982 - Cald_CamCtrl_ICamera_CancelAutoLock (0)
+01-19 15:12:32.212 I/caladbolg(17252): 1638161540 cald_camctrl.c                   (14164) 11880 P [SVR] 1638161510 + Cald_CamCtrl_FSM_Func_FrameDoneVF
+01-19 15:12:32.222 I/caladbolg(17252): 1638162028 cald_camctrl.c                   (14174) 11880 P [SVR] 1638161998 - Cald_CamCtrl_FSM_Func_FrameDoneVF
+01-19 15:12:32.392 I/ActivityManager(  233): Start proc android.process.media for content provider com.android.providers.media/.MediaProvider: pid=11923 uid=10002 gids={1015, 2001, 3003}
+01-19 15:12:32.452 I/ActivityThread(11923): Pub downloads: com.android.providers.downloads.DownloadProvider
+01-19 15:12:32.462 I/ActivityThread(11923): Pub drm: com.android.providers.drm.DrmProvider
+01-19 15:12:32.462 I/ActivityThread(11923): Pub media: com.android.providers.media.MediaProvider
+01-19 15:12:32.472 V/MediaProvider(11923): Attached volume: internal
+01-19 15:12:32.472 V/MediaProvider(11923): /mnt/sdcard volume ID: 1138963242
+01-19 15:12:32.502 V/MediaProvider(11923): Attached volume: external
+01-19 15:12:32.932 D/dalvikvm(11853): GC_CONCURRENT freed 948K, 50% free 3814K/7559K, external 5472K/6794K, paused 2ms+10ms
+01-19 15:12:33.432 D/dalvikvm(11853): GC_CONCURRENT freed 88K, 48% free 3942K/7559K, external 8456K/9623K, paused 2ms+9ms
+01-19 15:12:33.922 I/WindowManager(  233): Setting rotation to 0, animFlags=1
+01-19 15:12:33.942 E/OverlayLIB(  233): setPosition failed
+01-19 15:12:33.942 I/ActivityManager(  233): Config changed: { scale=1.0 imsi=404/13 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=1 layout=34 uiMode=17 theme=ComponentInfo{com.sonyericsson.defaultruntimethemes/com.sonyericsson.defaultruntimethemes.BlackThemeService} seq=892}
+01-19 15:12:33.972 D/RPLOG   (11521): RP (RP-MediaPlaybackService) onConfigurationChanged
+01-19 15:12:33.972 W/RPLOG   (11521): RP (RP-MediaPlaybackService) WIDGET: No ids found.
+01-19 15:12:33.982 D/GestureDetector( 1093): touchSlop:35 doubleTapSlop:215
+01-19 15:12:34.042 E/OverlayLIB(  233): setPosition failed
+01-19 15:12:34.102 E/OverlayLIB(  233): setPosition failed
+01-19 15:12:34.182 W/ActivityManager(  233): Activity pause timeout for HistoryRecord{2b4f1608 com.sonyericsson.android.camera/.CameraActivityForCaptureOnly}
+01-19 15:12:34.182 I/ActivityManager(  233): Start proc e2o.mobile for activity e2o.mobile/.Home: pid=11933 uid=10025 gids={1006, 3003, 1015}
+01-19 15:12:34.212 E/OverlayLIB(  233): setPosition failed
+01-19 15:12:34.232 D/CustomizationProvider(11860): openFile -- START uri=content://com.sonyericsson.provider.customization/settings/com.sonyericsson.textinput.uxp
+01-19 15:12:34.232 I/CustomizationProvider(11860): No configuration file: /system/etc/customization/settings/com/sonyericsson/textinput/uxp/custom_settings.xml
+01-19 15:12:34.272 E/OverlayLIB(  233): setPosition failed
+01-19 15:12:34.292 E/OverlayLIB(  233): setPosition failed
+01-19 15:12:34.492 I/caladbolg(17252): 1640433391 cald_camctrl.c                    (4579) 11878 P [SVR] 1640433360 + Cald_CamCtrl_ICamera_CancelAutoLock
+01-19 15:12:34.492 I/caladbolg(17252): 1640433482 cald_camctrl.c                    (9432) 11878 P [SVR] 1640433482 + Cald_CamCtrl_FSM_Func_CancelAutoLock
+01-19 15:12:34.492 I/caladbolg(17252): 1640433543 cald_camctrl.c                    (9454) 11878 P [SVR] 1640433543 - Cald_CamCtrl_FSM_Func_CancelAutoLock (0)
+01-19 15:12:34.492 I/caladbolg(17252): 1640433604 cald_camctrl.c                    (4584) 11878 P [SVR] 1640433574 - Cald_CamCtrl_ICamera_CancelAutoLock (0)
+01-19 15:12:34.492 I/caladbolg(17252): 1640435008 cald_capctrl.c                    (6371) 11880 P [CAP] 1640435008 + Cald_CapCtrl_FSM_Func_StopPreview
+01-19 15:12:34.492 I/caladbolg(17252): 1640435100 cald_hal_qct.c                    (3054) 11880 P [HAL] 1640435100 + Cald_Hal_Qct_If_StopPreview
+01-19 15:12:34.492 I/caladbolg(17252): 1640435588 cald_hal_qct.c                    (3087) 11880 P [HAL] 1640435588 - Cald_Hal_Qct_If_StopPreview (0)
+01-19 15:12:34.492 I/caladbolg(17252): 1640435680 cald_hal_qct.c                    (7007) 11880 P [HAL] 1640435680 + Cald_Hal_Qct_If_DeleteImageConvert
+01-19 15:12:34.492 I/caladbolg(17252): 1640436046 cald_hal_qct.c                    (7036) 11880 P [HAL] 1640436046 - Cald_Hal_Qct_If_DeleteImageConvert (0)
+01-19 15:12:34.492 I/caladbolg(17252): 1640437297 cald_capctrl.c                    (6382) 11880 P [CAP] 1640437297 - Cald_CapCtrl_FSM_Func_StopPreview
+01-19 15:12:34.522 D/dalvikvm( 1093): GC_CONCURRENT freed 591K, 54% free 3453K/7367K, external 4214K/5097K, paused 2ms+6ms
+01-19 15:12:34.552 D/dalvikvm(11853): GC_CONCURRENT freed 225K, 50% free 3783K/7559K, external 9529K/11577K, paused 2ms+5ms
+01-19 15:12:34.612 D/AudioHardwareMSM7X30(17252): AudioStreamOutMSM72xx::standby()
+01-19 15:12:34.612 D/AudioHardwareMSM7X30(17252): updateDeviceInfo: E rx_device 32 and tx_device 13
+01-19 15:12:34.612 D/AudioHardwareMSM7X30(17252): No active voicecall/playback, disabling cur_rx 32
+01-19 15:12:34.612 D/AudioHardwareMSM7X30(17252): value of device and enable is 32 0
+01-19 15:12:34.612 D/AudioHardwareMSM7X30(17252): No active voicecall/recording, disabling cur_tx 13
+01-19 15:12:34.612 D/AudioHardwareMSM7X30(17252): value of device and enable is 13 0
+01-19 15:12:34.612 D/AudioHardwareMSM7X30(17252): updateDeviceInfo: X cur_rx 32 cur_tx 13
+01-19 15:12:34.622 D/kernel  (  130): [263117.693542] [msm7x30.c:msm_device_put] device xloud_speaker_mono_rx set 0
+01-19 15:12:34.622 D/kernel  (  130): [263117.694580] msm_snddev_poweramp_off: power off amplifier
+01-19 15:12:34.622 D/kernel  (  130): [263117.697204] [adsp.c:msm_adsp_put] closing module AFETASK
+01-19 15:12:34.622 D/kernel  (  130): [263117.697509] [msm7x30.c:msm_device_put] device speaker_mono_tx set 0
+01-19 15:12:34.622 D/kernel  (  130): [263117.697601] [audpp.c:audpp_dsp_event] DISABLE
+01-19 15:12:34.622 D/kernel  (  130): [263117.698364] [audpp.c:audpp_disable] Received CFG_MSG_DISABLE from ADSP
+01-19 15:12:34.622 D/kernel  (  130): [263117.698394] [adsp.c:msm_adsp_disable] disable interrupt
+01-19 15:12:34.622 D/kernel  (  130): [263117.698394] [adsp.c:msm_adsp_put] closing module AUDPPTASK
+01-19 15:12:34.652 I/START   (11933): onStart()
+01-19 15:12:34.672 E/OverlayLIB(  233): setPosition failed
+01-19 15:12:34.692 E/OverlayLIB(  233): setPosition failed
+01-19 15:12:34.712 D/dalvikvm(11933): GC_CONCURRENT freed 99K, 46% free 2974K/5447K, external 2662K/3324K, paused 2ms+7ms
+01-19 15:12:34.752 E/OverlayLIB(  233): setPosition failed
+01-19 15:12:34.772 E/OverlayLIB(  233): setPosition failed
+01-19 15:12:34.772 I/ActivityManager(  233): Displayed e2o.mobile/.Home: +596ms
+01-19 15:12:34.822 D/szipinf (11933): Initializing inflate state
+01-19 15:12:34.822 D/szipinf (11933): Initializing zlib to inflate
+01-19 15:12:34.842 D/szipinf (11933): Initializing inflate state
+01-19 15:12:34.842 D/szipinf (11933): Initializing zlib to inflate
+01-19 15:12:34.872 W/AudioService(  233): stream was not muted by this client
+01-19 15:12:34.872 E/AudioService(  233): Could not get client death handler for stream: 5
+01-19 15:12:34.882 W/AudioService(  233): stream was not muted by this client
+01-19 15:12:34.882 E/AudioService(  233): Could not get client death handler for stream: 5
+01-19 15:12:34.882 I/caladbolg(17252): 1640823680 cald_camctrl.c                    (4579) 11878 P [SVR] 1640823650 + Cald_CamCtrl_ICamera_CancelAutoLock
+01-19 15:12:34.882 I/caladbolg(17252): 1640823772 cald_camctrl.c                    (9432) 11878 P [SVR] 1640823772 + Cald_CamCtrl_FSM_Func_CancelAutoLock
+01-19 15:12:34.882 I/caladbolg(17252): 1640823833 cald_camctrl.c                    (9454) 11878 P [SVR] 1640823833 - Cald_CamCtrl_FSM_Func_CancelAutoLock (0)
+01-19 15:12:34.882 I/caladbolg(17252): 1640823894 cald_camctrl.c                    (4584) 11878 P [SVR] 1640823863 - Cald_CamCtrl_ICamera_CancelAutoLock (0)
+01-19 15:12:34.882 I/caladbolg(17252): 1640825969 cald_camctrl.c                    (6724) 11878 P [SVR] 1640825938 + Cald_CamCtrl_PowerDown
+01-19 15:12:34.882 I/caladbolg(17252): 1640826060 cald_camctrl.c                    (7569) 11878 P [SVR] 1640826060 + Cald_CamCtrl_FSM_Func_PowerDown
+01-19 15:12:34.882 I/caladbolg(17252): 1640827800 cald_hal_qct.c                    (2863) 11878 P [HAL] 1640827800 + Cald_Hal_Qct_If_PowerDown
+01-19 15:12:34.892 D/szipinf (11933): Initializing inflate state
+01-19 15:12:34.892 D/szipinf (11933): Initializing zlib to inflate
+01-19 15:12:34.932 D/szipinf (11933): Initializing inflate state
+01-19 15:12:34.942 D/szipinf (11933): Initializing zlib to inflate
+01-19 15:12:34.952 D/kernel  (  130): [263118.019805] mdp4_overlay_pipe_free: pipe=80742808 ndx=5
+01-19 15:12:34.982 D/kernel  (  130): [263118.049804] mdp4_overlay_pipe_free: pipe=80742964 ndx=6
+01-19 15:12:35.052 D/dalvikvm(11933): GC_CONCURRENT freed 222K, 42% free 3656K/6279K, external 2662K/3324K, paused 2ms+26ms
+01-19 15:12:35.122 D/kernel  (  130): [263118.189788] mdp4_dtv_off
+01-19 15:12:35.332 I/caladbolg(17252): 1641275981 cald_hal_qct.c                    (2891) 11878 P [HAL] 1641275981 - Cald_Hal_Qct_If_PowerDown (0)
+01-19 15:12:35.342 I/caladbolg(17252): 1641282603 cald_camctrl.c                    (7607) 11878 P [SVR] 1641282603 - Cald_CamCtrl_FSM_Func_PowerDown (0)
+01-19 15:12:35.342 I/caladbolg(17252): 1641283061 cald_camctrl.c                    (6729) 11878 P [SVR] 1641283031 - Cald_CamCtrl_PowerDown (0)
+01-19 15:12:35.442 W/InputManagerService(  233): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@2b5844e0 (uid=10082 pid=11853)
+01-19 15:12:35.442 W/InputManagerService(  233): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@2b5844e0 (uid=10082 pid=11853)
+01-19 15:12:35.462 W/IInputConnectionWrapper(11853): getTextBeforeCursor on inactive InputConnection
+01-19 15:12:35.472 W/IInputConnectionWrapper(11853): getTextBeforeCursor on inactive InputConnection
+01-19 15:12:35.472 W/IInputConnectionWrapper(11853): getExtractedText on inactive InputConnection
+01-19 15:12:35.492 W/IInputConnectionWrapper(11853): showStatusIcon on inactive InputConnection
+01-19 15:12:35.522 D/CustomizationProvider(11860): openFile -- START uri=content://com.sonyericsson.provider.customization/settings/com.sonyericsson.textinput.uxp
+01-19 15:12:35.522 I/CustomizationProvider(11860): No configuration file: /system/etc/customization/settings/com/sonyericsson/textinput/uxp/custom_settings.xml
+01-19 15:12:35.812 I/Web Console(11933): picked picked!!! at file:///android_asset/www/static/javascript/checkuploadimage.js:5
+01-19 15:12:36.242 I/Database(11933): sqlite returned: error code = 14, msg = cannot open file at line 27205 of [42537b6056]
+01-19 15:12:36.262 I/Web Console(11933): plugn added!!! at file:///android_asset/www/static/javascript/checkuploadimage.js:36
+01-19 15:12:36.262 I/Web Console(11933): object at file:///android_asset/www/static/javascript/checkuploadimage.js:38
+01-19 15:12:36.492 D/dalvikvm(  233): GC_EXPLICIT freed 234K, 47% free 8847K/16519K, external 9110K/11158K, paused 210ms
+01-19 15:12:36.512 D/szipinf (11933): Initializing inflate state
+01-19 15:12:36.512 D/szipinf (11933): Initializing zlib to inflate
+01-19 15:12:37.282 W/kernel  (  130): [263120.352508] select 11853 (.android.camera), adj 8, size 7666, to kill
+01-19 15:12:37.282 W/kernel  (  130): [263120.352569] send sigkill to 11853 (.android.camera), adj 8, size 7666
+01-19 15:12:37.342 I/Web Console(11933): QONTEXT ================QONTEXT BOOTING====================================== at file:///android_asset/www/static/javascript/initializer.js:1009
+01-19 15:12:37.342 I/Web Console(11933): QONTEXT 0.1 at file:///android_asset/www/static/javascript/initializer.js:1009
+01-19 15:12:37.362 I/Web Console(11933): QONTEXT suc:/android_asset/www/index.html at file:///android_asset/www/static/javascript/initializer.js:1009
+01-19 15:12:37.432 I/ActivityManager(  233): Process com.sonyericsson.android.camera (pid 11853) has died.
+01-19 15:12:37.962 I/Web Console(11933): QONTEXT https://pramati.qontext.com/portal/api/profile?csrf-token=fb3b20b77aaaf9b6f8e0d06f063deb0d ==TIME:15:12:37 at file:///android_asset/www/static/javascript/initializer.js:1009
+01-19 15:12:40.472 D/dalvikvm(11933): GC_CONCURRENT freed 1213K, 51% free 3602K/7239K, external 2662K/3324K, paused 4ms+3ms
+01-19 15:12:40.852 I/Web Console(11933): QONTEXT https://pramati.qontext.com/login/rest/auth?csrf-token=fb3b20b77aaaf9b6f8e0d06f063deb0d ==TIME:15:12:40 at file:///android_asset/www/static/javascript/initializer.js:1009
+01-19 15:12:41.722 I/Web Console(11933): QONTEXT https://pramati.qontext.com/login/rest/auth?csrf-token=CHZHRdf6Sc5y73wzfKqdpM6K ==TIME:15:12:41 at file:///android_asset/www/static/javascript/initializer.js:1009
+01-19 15:12:43.292 I/Web Console(11933): QONTEXT starting checkalerts at file:///android_asset/www/static/javascript/initializer.js:1009
+01-19 15:12:44.132 D/CheckUploadImage:action=(11933): checkimage
+01-19 15:12:44.152 E/File Path AFTER:(11933): /mnt/sdcard/Android/data/e2o.mobile/cache
+01-19 15:12:44.182 W/InputManagerService(  233): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@2b674118
+01-19 15:12:44.192 D/Bitmap: (11933): Getting bitmap
+01-19 15:12:44.332 D/dalvikvm(11933): GC_CONCURRENT freed 387K, 53% free 3441K/7239K, external 14752K/16800K, paused 3ms+25ms
+01-19 15:12:44.352 I/Web Console(11933): QONTEXT suc:/android_asset/www/feed.html at file:///android_asset/www/static/javascript/initializer.js:1009
+01-19 15:12:44.902 W/kernel  (  130): [263127.974212] select 11860 (n.customization), adj 7, size 3903, to kill
+01-19 15:12:44.902 W/kernel  (  130): [263127.974243] select 11867 (n.conversations), adj 8, size 4691, to kill
+01-19 15:12:44.902 W/kernel  (  130): [263127.974243] send sigkill to 11867 (n.conversations), adj 8, size 4691
+01-19 15:12:44.902 I/ActivityManager(  233): Process com.sonyericsson.conversations (pid 11867) has died.
+01-19 15:12:44.992 W/kernel  (  130): [263128.064971] select 11860 (n.customization), adj 7, size 3902, to kill
+01-19 15:12:44.992 W/kernel  (  130): [263128.065002] select 11923 (d.process.media), adj 7, size 4822, to kill
+01-19 15:12:44.992 W/kernel  (  130): [263128.065002] send sigkill to 11923 (d.process.media), adj 7, size 4822
+01-19 15:12:44.992 I/ActivityManager(  233): Process android.process.media (pid 11923) has died.
+01-19 15:12:45.082 I/ActivityManager(  233): Process com.sonyericsson.customization (pid 11860) has died.
+01-19 15:12:45.082 I/ActivityManager(  233): Low Memory: No more background processes.
+01-19 15:12:45.092 W/kernel  (  130): [263128.163421] select 11860 (n.customization), adj 7, size 3902, to kill
+01-19 15:12:45.092 W/kernel  (  130): [263128.163421] send sigkill to 11860 (n.customization), adj 7, size 3902
+01-19 15:12:45.552 I/ActivityManager(  233): Start proc android.process.media for content provider com.android.providers.media/.MediaProvider: pid=11958 uid=10002 gids={1015, 2001, 3003}
+01-19 15:12:45.622 I/Web Console(11933): QONTEXT https://pramati.qontext.com/notifications/feeds/network/2010122447649?type=plain&start=0&startIndex=0&count=20&csrf-token=98969272ec5eed2d546bd9b2f47b7aea ==TIME:15:12:45 at file:///android_asset/www/static/javascript/initializer.js:1009
+01-19 15:12:45.622 I/ActivityThread(11958): Pub downloads: com.android.providers.downloads.DownloadProvider
+01-19 15:12:45.652 I/ActivityThread(11958): Pub drm: com.android.providers.drm.DrmProvider
+01-19 15:12:45.652 I/ActivityThread(11958): Pub media: com.android.providers.media.MediaProvider
+01-19 15:12:45.672 V/MediaProvider(11958): Attached volume: internal
+01-19 15:12:45.682 V/MediaProvider(11958): /mnt/sdcard volume ID: 1138963242
+01-19 15:12:45.732 V/MediaProvider(11958): Attached volume: external
+01-19 15:12:45.782 W/MediaProvider(11958): original file hasn't been stored yet: /mnt/sdcard/DCIM/Camera/1326966165745.jpg
+01-19 15:12:47.022 I/Web Console(11933): QONTEXT SUCCESS RESPONSE for https://pramati.qontext.com/notifications/feeds/network/2010122447649?type=plain&start=0&startIndex=0&count=20&csrf-token=98969272ec5eed2d546bd9b2f47b7aea ##TIME:15:12:46 at file:///android_asset/www/static/javascript/initializer.js:1009
+01-19 15:12:47.062 W/kernel  (  130): [263130.130737] select 2066 (logcat), adj 4, size 82, to kill
+01-19 15:12:47.062 W/kernel  (  130): [263130.130737] select 2613 (t.android.yahoo), adj 4, size 4344, to kill
+01-19 15:12:47.062 W/kernel  (  130): [263130.130767] select 5173 (son.eventstream), adj 4, size 4467, to kill
+01-19 15:12:47.062 W/kernel  (  130): [263130.130767] select 10098 (m.facebook.orca), adj 4, size 4560, to kill
+01-19 15:12:47.062 W/kernel  (  130): [263130.130798] send sigkill to 10098 (m.facebook.orca), adj 4, size 4560
+01-19 15:12:47.072 I/ActivityManager(  233): Process com.facebook.orca (pid 10098) has died.
+01-19 15:12:47.072 W/ActivityManager(  233): Scheduling restart of crashed service com.facebook.orca/.push.mqtt.MqttPushService in 5000ms
+01-19 15:12:47.072 W/ActivityManager(  233): Scheduling restart of crashed service com.facebook.orca/.server.OrcaService in 14999ms
+01-19 15:12:47.072 I/ActivityManager(  233): Low Memory: No more background processes.
+01-19 15:12:47.912 D/CheckImage:(11933):  Returning result OK
+01-19 15:12:47.922 I/Web Console(11933): .prototype.loadSharePage, url:content://media/external/images/media/485 at file:///android_asset/www/static/javascript/checkuploadimage.js:10
+01-19 15:12:47.932 I/Web Console(11933): in init.js : loadSharePage:content://media/external/images/media/485 at file:///android_asset/www/static/javascript/initializer.js:1022
+01-19 15:12:48.272 I/Web Console(11933): photocapture at file:///android_asset/www/static/javascript/qontext_v0.1.js:1517
+01-19 15:12:48.272 I/Web Console(11933): in IF IF IF at file:///android_asset/www/static/javascript/qontext_v0.1.js:1519
+01-19 15:12:48.462 I/Web Console(11933): This is a file at file:///android_asset/www/static/javascript/phonegap.js:3242
+01-19 15:12:51.192 D/lights  (  233): set_light_buttons: brightness=255
+01-19 15:12:51.702 I/ActivityManager(  233): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.sonyericsson.home/.HomeActivity } from pid 233
+01-19 15:12:51.712 I/PAUSE   (11933): onPause()
+01-19 15:12:51.732 I/ActivityManager(  233): Start proc com.sonyericsson.home for activity com.sonyericsson.home/.HomeActivity: pid=11968 uid=10044 gids={1015, 3003}
+01-19 15:12:52.082 I/ActivityManager(  233): Start proc com.facebook.orca for service com.facebook.orca/.push.mqtt.MqttPushService: pid=11977 uid=10116 gids={3003, 1015, 1006}
+01-19 15:12:52.242 D/dalvikvm(11968): GC_CONCURRENT freed 236K, 44% free 3438K/6087K, external 2178K/2672K, paused 5ms+5ms
+01-19 15:12:52.352 V/orca:OrcaApplication(11977): Forcing initialization of AsyncTask
+01-19 15:12:52.562 W/global  (11968): Customization file not found: /etc/customization/settings/com/sonyericsson/home/default_settings_global.xml
+01-19 15:12:52.592 I/ActivityManager(  233): Start proc com.sonyericsson.customization for content provider com.sonyericsson.provider.customization/.CustomizationProvider: pid=11985 uid=10063 gids={}
+01-19 15:12:52.712 I/ActivityThread(11985): Pub com.sonyericsson.provider.customization: com.sonyericsson.provider.customization.CustomizationProvider
+01-19 15:12:52.712 D/dalvikvm(  121): GC_EXPLICIT freed 11K, 49% free 2762K/5379K, external 1685K/2133K, paused 122ms
+01-19 15:12:52.722 I/ActivityThread(11985): Pub com.sonyericsson.provider.useragent: com.sonyericsson.provider.useragent.UserAgentProvider
+01-19 15:12:52.762 D/CustomizationProvider(11985): openFile -- START uri=content://com.sonyericsson.provider.customization/settings/com.sonyericsson.provider.useragent
+01-19 15:12:52.772 I/CustomizationProvider(11985): No configuration file: /system/etc/customization/settings/com/sonyericsson/provider/useragent/custom_settings.xml
+01-19 15:12:52.772 W/UserAgentProvider(11985): onCreatejava.io.FileNotFoundException
+01-19 15:12:52.792 D/dalvikvm(11968): GC_CONCURRENT freed 690K, 48% free 3374K/6471K, external 2831K/3524K, paused 3ms+15ms
+01-19 15:12:52.802 D/CustomizationProvider(11985): openFile -- START uri=content://com.sonyericsson.provider.customization/settings/com.sonyericsson.home/custom_settings_global.xml
+01-19 15:12:52.822 I/CustomizationProvider(11985): No configuration file: /system/etc/customization/settings/com/sonyericsson/home/custom_settings_global.xml
+01-19 15:12:52.822 D/dalvikvm(  121): GC_EXPLICIT freed <1K, 49% free 2762K/5379K, external 1685K/2133K, paused 101ms
+01-19 15:12:52.872 W/InputManagerService(  233): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@2b5de550 (uid=10025 pid=11933)
+01-19 15:12:52.892 D/dalvikvm(  121): GC_EXPLICIT freed <1K, 49% free 2762K/5379K, external 1685K/2133K, paused 77ms
+01-19 15:12:52.922 I/ActivityManager(  233): Displayed com.sonyericsson.home/.HomeActivity: +1s201ms
+01-19 15:12:52.982 D/CustomizationProvider(11985): openFile -- START uri=content://com.sonyericsson.provider.customization/settings/com.sonyericsson.textinput.uxp
+01-19 15:12:52.982 I/CustomizationProvider(11985): No configuration file: /system/etc/customization/settings/com/sonyericsson/textinput/uxp/custom_settings.xml
+01-19 15:12:53.202 W/OrcaGuiceModule(11977): Sig: ijxLJi1yGs1JpL-X1SExmchvork
+01-19 15:12:53.272 W/Resources(11977): Converting to string: TypedValue{t=0x10/d=0xffffffff a=-1}
+01-19 15:12:53.272 I/ActivityManager(  233): Start proc com.google.android.googlequicksearchbox for broadcast com.google.android.googlequicksearchbox/.SearchWidgetProvider: pid=11993 uid=10098 gids={3003}
+01-19 15:12:53.362 D/ACRA    (11977): Retrieve application default SharedPreferences.
+01-19 15:12:53.362 D/ACRA    (11977): Set OnSharedPreferenceChangeListener.
+01-19 15:12:53.362 D/ACRA    (11977): ACRA is enabled for com.facebook.orca, intializing...
+01-19 15:12:53.382 D/ACRA    (11977): Looking for error files in /data/data/com.facebook.orca/files
+01-19 15:12:53.622 I/ActivityThread(11993): Pub com.google.android.googlequicksearchbox.google: com.google.android.googlequicksearchbox.google.GoogleSuggestionProvider
+01-19 15:12:53.722 W/kernel  (  130): [263136.793548] select 11933 (e2o.mobile), adj 7, size 12483, to kill
+01-19 15:12:53.722 W/kernel  (  130): [263136.793579] send sigkill to 11933 (e2o.mobile), adj 7, size 12483
+01-19 15:12:53.732 D/dalvikvm(11977): GC_CONCURRENT freed 920K, 49% free 3499K/6791K, external 1685K/2133K, paused 6ms+3ms
+01-19 15:12:53.772 I/ActivityThread(11993): Pub com.google.android.googlequicksearchbox.shortcuts: com.google.android.googlequicksearchbox.ShortcutsProvider
+01-19 15:12:53.792 I/ActivityManager(  233): Start proc com.sonyericsson.widget.togglewidgets for broadcast com.sonyericsson.widget.togglewidgets/.BluetoothWidget: pid=12002 uid=10062 gids={3001, 3002}
+01-19 15:12:53.982 D/dalvikvm(11968): GC_CONCURRENT freed 322K, 45% free 3600K/6471K, external 3720K/4409K, paused 4ms+8ms
+01-19 15:12:53.992 D/dalvikvm(11977): GC_FOR_MALLOC freed 148K, 48% free 3570K/6791K, external 1685K/2133K, paused 95ms
+01-19 15:12:53.992 I/dalvikvm-heap(11977): Grow heap (frag case) to 7.501MB for 47122-byte allocation
+01-19 15:12:54.052 D/dalvikvm(11977): GC_FOR_MALLOC freed <1K, 48% free 3616K/6855K, external 1685K/2133K, paused 46ms
+01-19 15:12:54.072 E/InputDispatcher(  233): channel '2b6eb340 e2o.mobile/e2o.mobile.Home (server)' ~ Consumer closed input channel or an error occurred.  events=0x8
+01-19 15:12:54.072 E/InputDispatcher(  233): channel '2b6eb340 e2o.mobile/e2o.mobile.Home (server)' ~ Channel is unrecoverably broken and will be disposed!
+01-19 15:12:54.072 I/WindowManager(  233): WINDOW DIED Window{2b6eb340 e2o.mobile/e2o.mobile.Home paused=false}
+01-19 15:12:54.072 I/ActivityManager(  233): Process e2o.mobile (pid 11933) has died.
+01-19 15:12:54.122 D/dalvikvm(11977): GC_FOR_MALLOC freed 22K, 48% free 3594K/6855K, external 1685K/2133K, paused 63ms
+01-19 15:12:54.132 I/dalvikvm-heap(11977): Grow heap (frag case) to 7.571MB for 96274-byte allocation
+01-19 15:12:54.182 D/dalvikvm(11977): GC_FOR_MALLOC freed 0K, 48% free 3688K/6983K, external 1685K/2133K, paused 41ms
+01-19 15:12:54.232 I/ActivityManager(  233): Start proc com.sonyericsson.widgets for broadcast com.sonyericsson.mediawidget/.MediaAppWidgetProvider: pid=12010 uid=10149 gids={1015}
+01-19 15:12:54.292 D/dalvikvm(11977): GC_FOR_MALLOC freed 46K, 48% free 3642K/6983K, external 1685K/2133K, paused 90ms
+01-19 15:12:54.292 I/dalvikvm-heap(11977): Grow heap (frag case) to 7.592MB for 69102-byte allocation
+01-19 15:12:54.362 D/dalvikvm(11977): GC_FOR_MALLOC freed 95K, 50% free 3614K/7111K, external 1685K/2133K, paused 72ms
+01-19 15:12:54.362 D/dalvikvm(11968): GC_CONCURRENT freed 137K, 43% free 3718K/6471K, external 4630K/5528K, paused 2ms+4ms
+01-19 15:12:54.412 D/dalvikvm(11977): GC_FOR_MALLOC freed 189K, 48% free 3703K/7111K, external 1685K/2133K, paused 37ms
+01-19 15:12:54.452 D/dalvikvm(11977): GC_FOR_MALLOC freed 56K, 47% free 3775K/7111K, external 1685K/2133K, paused 38ms
+01-19 15:12:54.452 I/dalvikvm-heap(11977): Grow heap (frag case) to 7.723MB for 68981-byte allocation
+01-19 15:12:54.502 D/dalvikvm(11977): GC_FOR_MALLOC freed 0K, 47% free 3843K/7239K, external 1685K/2133K, paused 29ms
+01-19 15:12:54.722 D/dalvikvm(11968): GC_CONCURRENT freed 385K, 43% free 3767K/6535K, external 5637K/7014K, paused 3ms+6ms
+01-19 15:12:55.082 D/dalvikvm(11977): GC_CONCURRENT freed 347K, 39% free 4423K/7239K, external 1685K/2133K, paused 2ms+4ms
+01-19 15:12:55.142 E/dalvikvm(11977): Could not find class 'com.google.i18n.phonenumbers.Phonemetadata$PhoneMetadataCollection$Builder', referenced from method com.google.i18n.phonenumbers.Phonemetadata$PhoneMetadataCollection.newBuilder
+01-19 15:12:55.142 W/dalvikvm(11977): VFY: unable to resolve new-instance 2561 (Lcom/google/i18n/phonenumbers/Phonemetadata$PhoneMetadataCollection$Builder;) in Lcom/google/i18n/phonenumbers/Phonemetadata$PhoneMetadataCollection;
+01-19 15:12:55.142 D/dalvikvm(11977): VFY: replacing opcode 0x22 at 0x0000
+01-19 15:12:55.142 D/dalvikvm(11977): VFY: dead code 0x0002-0005 in Lcom/google/i18n/phonenumbers/Phonemetadata$PhoneMetadataCollection;.newBuilder ()Lcom/google/i18n/phonenumbers/Phonemetadata$PhoneMetadataCollection$Builder;
+01-19 15:12:55.142 E/dalvikvm(11977): Could not find class 'com.google.i18n.phonenumbers.Phonemetadata$PhoneMetadata$Builder', referenced from method com.google.i18n.phonenumbers.Phonemetadata$PhoneMetadata.newBuilder
+01-19 15:12:55.152 W/dalvikvm(11977): VFY: unable to resolve new-instance 2559 (Lcom/google/i18n/phonenumbers/Phonemetadata$PhoneMetadata$Builder;) in Lcom/google/i18n/phonenumbers/Phonemetadata$PhoneMetadata;
+01-19 15:12:55.152 D/dalvikvm(11977): VFY: replacing opcode 0x22 at 0x0000
+01-19 15:12:55.152 D/dalvikvm(11977): VFY: dead code 0x0002-0005 in Lcom/google/i18n/phonenumbers/Phonemetadata$PhoneMetadata;.newBuilder ()Lcom/google/i18n/phonenumbers/Phonemetadata$PhoneMetadata$Builder;
+01-19 15:12:55.152 E/dalvikvm(11977): Could not find class 'com.google.i18n.phonenumbers.Phonemetadata$PhoneNumberDesc$Builder', referenced from method com.google.i18n.phonenumbers.Phonemetadata$PhoneNumberDesc.newBuilder
+01-19 15:12:55.152 W/dalvikvm(11977): VFY: unable to resolve new-instance 2563 (Lcom/google/i18n/phonenumbers/Phonemetadata$PhoneNumberDesc$Builder;) in Lcom/google/i18n/phonenumbers/Phonemetadata$PhoneNumberDesc;
+01-19 15:12:55.152 D/dalvikvm(11977): VFY: replacing opcode 0x22 at 0x0000
+01-19 15:12:55.152 D/dalvikvm(11977): VFY: dead code 0x0002-0005 in Lcom/google/i18n/phonenumbers/Phonemetadata$PhoneNumberDesc;.newBuilder ()Lcom/google/i18n/phonenumbers/Phonemetadata$PhoneNumberDesc$Builder;
+01-19 15:12:55.172 E/dalvikvm(11977): Could not find class 'com.google.i18n.phonenumbers.Phonemetadata$NumberFormat$Builder', referenced from method com.google.i18n.phonenumbers.Phonemetadata$NumberFormat.newBuilder
+01-19 15:12:55.172 W/dalvikvm(11977): VFY: unable to resolve new-instance 2557 (Lcom/google/i18n/phonenumbers/Phonemetadata$NumberFormat$Builder;) in Lcom/google/i18n/phonenumbers/Phonemetadata$NumberFormat;
+01-19 15:12:55.172 D/dalvikvm(11977): VFY: replacing opcode 0x22 at 0x0000
+01-19 15:12:55.172 D/dalvikvm(11977): VFY: dead code 0x0002-0005 in Lcom/google/i18n/phonenumbers/Phonemetadata$NumberFormat;.newBuilder ()Lcom/google/i18n/phonenumbers/Phonemetadata$NumberFormat$Builder;
+01-19 15:12:55.562 D/dalvikvm(11968): GC_CONCURRENT freed 435K, 44% free 3782K/6663K, external 7118K/8831K, paused 2ms+11ms
+01-19 15:12:56.282 D/dalvikvm(11977): GC_CONCURRENT freed 964K, 43% free 4597K/7943K, external 1685K/2133K, paused 13ms+9ms
+01-19 15:12:56.722 D/dalvikvm(11968): GC_CONCURRENT freed 246K, 43% free 3812K/6663K, external 9831K/10761K, paused 2ms+3ms
+01-19 15:12:59.122 D/dalvikvm(11968): GC_CONCURRENT freed 197K, 43% free 3862K/6663K, external 10519K/12567K, paused 421ms+3ms
+01-19 15:13:02.042 D/dalvikvm(11968): GC_CONCURRENT freed 217K, 42% free 3913K/6663K, external 11302K/13310K, paused 2ms+5ms
+01-19 15:13:05.332 D/skia    (  305): purging 21K from font cache [3 entries]
+01-19 15:13:05.402 D/dalvikvm(  305): GC_EXPLICIT freed 63K, 56% free 3264K/7303K, external 2565K/3200K, paused 64ms
+01-19 15:13:05.732 I/ActivityManager(  233): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.xtralogic.android.logcollector/.SendLogActivity bnds=[125,115][238,273] } from pid 11968
+01-19 15:13:06.072 I/ActivityManager(  233): Start proc com.xtralogic.android.logcollector for activity com.xtralogic.android.logcollector/.SendLogActivity: pid=12026 uid=10173 gids={1007, 1015}
+01-19 15:13:06.372 I/ActivityManager(  233): Start proc com.android.email for activity com.android.email/.activity.MessageCompose: pid=12033 uid=10001 gids={3003, 1015}
+01-19 15:13:06.402 I/ActivityManager(  233): Starting: Intent { flg=0x10000000 cmp=com.morrison.applocklite/.PasswordActivity (has extras) } from pid 2388
+01-19 15:13:06.662 I/ActivityThread(12033): Pub com.android.exchange.provider: com.android.exchange.provider.ExchangeProvider
+01-19 15:13:06.682 I/ActivityThread(12033): Pub com.android.email.provider: com.android.email.provider.EmailProvider
+01-19 15:13:06.702 I/ActivityThread(12033): Pub com.android.email.attachmentprovider: com.android.email.provider.AttachmentProvider
+01-19 15:13:06.912 W/ActivityManager(  233): Activity pause timeout for HistoryRecord{2b35b5b8 com.xtralogic.android.logcollector/.SendLogActivity}
+01-19 15:13:06.992 D/EAS SyncManager(12033): !!! EAS SyncManager, onCreate
+01-19 15:13:07.032 D/EAS SyncManager(12033): !!! EAS SyncManager, onBind
+01-19 15:13:07.202 D/EAS SyncManager(12033): !!! EAS SyncManager, stopping self
+01-19 15:13:07.362 D/Eas Debug(12033): Logging: 
+01-19 15:13:07.372 D/EAS SyncManager(12033): !!! EAS SyncManager, onDestroy
+01-19 15:13:07.442 D/AdfonicAdView( 2388): Ad request : http://adfonic.net/ad/04e27180-61ab-4d23-92bd-f56cd78280cb?r.mccmnc=40413&t.beacons=metadata&r.id=4ebf29570bb6e821&u.lang=en&r.nettype=wifi&h.user-agent=Mozilla%2F5.0+%28Linux%3B+U%3B+Android+2.3.4%3B+en-us%3B+MT15i+Build%2F4.0.2.A.0.42%29+AppleWebKit%2F533.1+%28KHTML%2C+like+Gecko%29+Version%2F4.0+Mobile+Safari%2F533.1&r.client=Adfonic%2FAndroid%2F1.1.1&t.format=json&t.markup=0
+01-19 15:13:07.652 I/ActivityManager(  233): Process android.process.media (pid 11958) has died.
+01-19 15:13:07.662 W/kernel  (  130): [263150.730834] select 11958 (d.process.media), adj 8, size 3790, to kill
+01-19 15:13:07.662 W/kernel  (  130): [263150.730865] send sigkill to 11958 (d.process.media), adj 8, size 3790
+01-19 15:13:07.752 I/ActivityManager(  233): Process com.google.android.googlequicksearchbox (pid 11993) has died.
+01-19 15:13:07.762 W/kernel  (  130): [263150.829925] select 11985 (n.customization), adj 7, size 3498, to kill
+01-19 15:13:07.762 W/kernel  (  130): [263150.829925] select 11993 (equicksearchbox), adj 8, size 3643, to kill
+01-19 15:13:07.762 W/kernel  (  130): [263150.829956] send sigkill to 11993 (equicksearchbox), adj 8, size 3643
+01-19 15:13:07.762 D/CustomizationProvider(11985): openFile -- START uri=content://com.sonyericsson.provider.customization/settings/com.sonyericsson.textinput.uxp
+01-19 15:13:07.762 I/CustomizationProvider(11985): No configuration file: /system/etc/customization/settings/com/sonyericsson/textinput/uxp/custom_settings.xml
+01-19 15:13:07.822 I/ActivityManager(  233): Displayed com.morrison.applocklite/.PasswordActivity: +917ms (total +1s789ms)
+01-19 15:13:08.972 D/AdfonicAdView( 2388): Full adfonic response: {"adId":"ac8c7adb-5957-414d-9e05-d0328a42d6b7","status":"success","components":{"image":{"height":"50","width":"300","url":"http:\/\/r.w.inmobi.com\/FileData\/094d1f6e-f329-4662-b65d-21ff7a9e95439.jpg"},"beacons":{"numBeacons":"1","beacon1":"http:\/\/adfonic.net\/bc\/04e27180-61ab-4d23-92bd-f56cd78280cb\/ac8c7adb-5957-414d-9e05-d0328a42d6b7.gif"}},"format":"banner","destination":{"type":"UNKNOWN","url":"http:\/\/adfonic.net\/ct\/04e27180-61ab-4d23-92bd-f56cd78280cb\/ac8c7adb-5957-414d-9e05-d0328a42d6b7"}}
+01-19 15:13:11.672 D/lights  (  233): set_light_buttons: brightness=0
+01-19 15:13:14.972 D/dalvikvm(24581): GC_EXPLICIT freed 2K, 51% free 2838K/5767K, external 1685K/2133K, paused 78ms
+01-19 15:13:15.192 I/WindowManager(  233): Setting rotation to 3, animFlags=0
+01-19 15:13:15.213 I/ActivityManager(  233): Config changed: { scale=1.0 imsi=404/13 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=2 layout=34 uiMode=17 theme=ComponentInfo{com.sonyericsson.defaultruntimethemes/com.sonyericsson.defaultruntimethemes.BlackThemeService} seq=893}
+01-19 15:13:15.392 D/RPLOG   (11521): RP (RP-MediaPlaybackService) onConfigurationChanged
+01-19 15:13:15.392 D/GestureDetector( 1093): touchSlop:35 doubleTapSlop:215
+01-19 15:13:15.392 W/RPLOG   (11521): RP (RP-MediaPlaybackService) WIDGET: No ids found.
+01-19 15:13:15.432 D/webviewglue( 2388): nativeDestroy view: 0x6955f0
+01-19 15:13:15.642 D/CustomizationProvider(11985): openFile -- START uri=content://com.sonyericsson.provider.customization/settings/com.sonyericsson.textinput.uxp
+01-19 15:13:15.642 I/CustomizationProvider(11985): No configuration file: /system/etc/customization/settings/com/sonyericsson/textinput/uxp/custom_settings.xml
+01-19 15:13:15.752 D/dalvikvm( 2388): GC_CONCURRENT freed 580K, 59% free 3615K/8647K, external 7007K/7743K, paused 4ms+9ms
+01-19 15:13:15.822 D/AdfonicAdView( 2388): Ad request : http://adfonic.net/ad/04e27180-61ab-4d23-92bd-f56cd78280cb?r.mccmnc=40413&t.beacons=metadata&r.id=4ebf29570bb6e821&u.lang=en&r.nettype=wifi&h.user-agent=Mozilla%2F5.0+%28Linux%3B+U%3B+Android+2.3.4%3B+en-us%3B+MT15i+Build%2F4.0.2.A.0.42%29+AppleWebKit%2F533.1+%28KHTML%2C+like+Gecko%29+Version%2F4.0+Mobile+Safari%2F533.1&r.client=Adfonic%2FAndroid%2F1.1.1&t.format=json&t.markup=0
+01-19 15:13:16.002 D/CustomizationProvider(11985): openFile -- START uri=content://com.sonyericsson.provider.customization/settings/com.sonyericsson.textinput.uxp
+01-19 15:13:16.002 I/CustomizationProvider(11985): No configuration file: /system/etc/customization/settings/com/sonyericsson/textinput/uxp/custom_settings.xml
+01-19 15:13:16.442 D/AdfonicAdView( 2388): Full adfonic response: {"adId":"2fb5d55c-9f72-4f1e-a83e-a82be0bd6836","status":"success","components":{"image":{"height":"50","width":"300","url":"http:\/\/r.w.inmobi.com\/FileData\/3941cc82-c052-49f3-98be-a1748c62938e9.jpg"},"beacons":{"numBeacons":"1","beacon1":"http:\/\/adfonic.net\/bc\/04e27180-61ab-4d23-92bd-f56cd78280cb\/2fb5d55c-9f72-4f1e-a83e-a82be0bd6836.gif"}},"format":"banner","destination":{"type":"UNKNOWN","url":"http:\/\/adfonic.net\/ct\/04e27180-61ab-4d23-92bd-f56cd78280cb\/2fb5d55c-9f72-4f1e-a83e-a82be0bd6836"}}
+01-19 15:13:18.262 D/dalvikvm(  233): GC_EXPLICIT freed 555K, 47% free 8889K/16519K, external 9110K/11158K, paused 147ms
+01-19 15:13:19.222 D/Email   (12033): *** synchronizeMailboxGeneric ***
+01-19 15:13:20.792 I/WindowManager(  233): Setting rotation to 1, animFlags=0
+01-19 15:13:23.002 D/dalvikvm(  233): GC_EXPLICIT freed 75K, 47% free 8843K/16519K, external 9110K/11158K, paused 172ms
+01-19 15:13:27.992 I/Yahoo! - AirMail Push( 2613): Service started with intent=Intent { act=com.yahoo.mobile.client.android.yahoo.RECONNECT flg=0x4 cmp=com.yahoo.mobile.client.android.yahoo/com.urbanairship.airmail.AirMailService (has extras) }
+01-19 15:13:28.022 I/Yahoo! - AirMail Push( 2613): Detected active IP address as: 192.168.2.43
+01-19 15:13:28.022 I/Yahoo! - AirMail Push( 2613): Current IP: 192.168.2.43. Previous IP: 192.168.2.43
+01-19 15:13:28.022 I/Yahoo! - AirMail Push( 2613): IP Changed: false
+01-19 15:13:28.052 I/Yahoo! - AirMail Push( 2613): Reconnecting...
+01-19 15:13:28.082 I/Yahoo! - AirMail Push( 2613): Detected active IP address as: 192.168.2.43
+01-19 15:13:29.662 I/Yahoo! - AirMail Push( 2613): Received enhanced lookup response from BoxOffice.
+01-19 15:13:29.682 I/Yahoo! - AirMail Push( 2613): Received BoxOffice response to reconnect after: 1327571009. Currently: 1326966209. Shutting downfor 604800 seconds.
+01-19 15:13:29.692 I/Yahoo! - AirMail Push( 2613): Service started with intent=Intent { act=com.yahoo.mobile.client.android.yahoo.STOP cmp=com.yahoo.mobile.client.android.yahoo/com.urbanairship.airmail.AirMailService }
+01-19 15:13:29.702 I/Yahoo! - AirMail Push( 2613): No Helium servers returned from BoxOffice lookup.
+01-19 15:13:29.712 I/Yahoo! - AirMail Push( 2613): Exception in Helium connection. Network type=WIFI
+01-19 15:13:29.802 I/Yahoo! - AirMail Push( 2613): Connection aborting.
+01-19 15:13:29.802 I/Yahoo! - AirMail Push( 2613): Closing socket.
+01-19 15:13:29.802 E/Yahoo! - AirMail Push( 2613): null
+01-19 15:13:29.802 E/Yahoo! - AirMail Push( 2613): java.lang.Exception: No Helium servers available for connection.
+01-19 15:13:29.802 E/Yahoo! - AirMail Push( 2613): at com.urbanairship.airmail.ConnectionThread.run(ConnectionThread.java:48)
+01-19 15:13:29.802 I/Yahoo! - AirMail Push( 2613): Connection aborted, shutting down. Network type=WIFI
+01-19 15:13:29.812 I/Yahoo! - AirMail Push( 2613): Service stopped, socket closed successfully.
+01-19 15:13:29.812 I/Yahoo! - AirMail Push( 2613): Service destroyed (started=false)
+01-19 15:13:29.852 D/dalvikvm( 2613): GC_CONCURRENT freed 265K, 46% free 3345K/6087K, external 1685K/2133K, paused 11ms+4ms
+01-19 15:13:30.192 I/WindowManager(  233): Setting rotation to 0, animFlags=0
+01-19 15:13:30.214 I/ActivityManager(  233): Config changed: { scale=1.0 imsi=404/13 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=1 layout=34 uiMode=17 theme=ComponentInfo{com.sonyericsson.defaultruntimethemes/com.sonyericsson.defaultruntimethemes.BlackThemeService} seq=894}
+01-19 15:13:30.322 D/RPLOG   (11521): RP (RP-MediaPlaybackService) onConfigurationChanged
+01-19 15:13:30.362 W/RPLOG   (11521): RP (RP-MediaPlaybackService) WIDGET: No ids found.
+01-19 15:13:30.372 D/GestureDetector( 1093): touchSlop:35 doubleTapSlop:215
+01-19 15:13:30.412 D/webviewglue( 2388): nativeDestroy view: 0x6955f0
+01-19 15:13:30.442 D/CustomizationProvider(11985): openFile -- START uri=content://com.sonyericsson.provider.customization/settings/com.sonyericsson.textinput.uxp
+01-19 15:13:30.442 I/CustomizationProvider(11985): No configuration file: /system/etc/customization/settings/com/sonyericsson/textinput/uxp/custom_settings.xml
+01-19 15:13:30.822 D/dalvikvm( 1093): GC_CONCURRENT freed 642K, 54% free 3450K/7367K, external 3908K/4580K, paused 2ms+178ms
+01-19 15:13:30.942 D/AdfonicAdView( 2388): Ad request : http://adfonic.net/ad/04e27180-61ab-4d23-92bd-f56cd78280cb?r.mccmnc=40413&t.beacons=metadata&r.id=4ebf29570bb6e821&u.lang=en&r.nettype=wifi&h.user-agent=Mozilla%2F5.0+%28Linux%3B+U%3B+Android+2.3.4%3B+en-us%3B+MT15i+Build%2F4.0.2.A.0.42%29+AppleWebKit%2F533.1+%28KHTML%2C+like+Gecko%29+Version%2F4.0+Mobile+Safari%2F533.1&r.client=Adfonic%2FAndroid%2F1.1.1&t.format=json&t.markup=0
+01-19 15:13:31.072 I/ActivityManager(  233): Start proc com.android.vending for broadcast com.android.vending/com.google.android.finsky.receivers.UpdateCheckReceiver: pid=12067 uid=10100 gids={3003, 1015}
+01-19 15:13:31.132 D/CustomizationProvider(11985): openFile -- START uri=content://com.sonyericsson.provider.customization/settings/com.sonyericsson.textinput.uxp
+01-19 15:13:31.132 I/CustomizationProvider(11985): No configuration file: /system/etc/customization/settings/com/sonyericsson/textinput/uxp/custom_settings.xml
+01-19 15:13:31.292 I/ActivityThread(12067): Pub com.google.android.finsky.RecentSuggestionsProvider: com.google.android.finsky.providers.RecentSuggestionsProvider
+01-19 15:13:32.392 W/kernel  (  130): [263175.463867] select 2613 (t.android.yahoo), adj 8, size 4756, to kill
+01-19 15:13:32.392 W/kernel  (  130): [263175.463958] send sigkill to 2613 (t.android.yahoo), adj 8, size 4756
+01-19 15:13:32.402 D/AdfonicAdView( 2388): Full adfonic response: {"adId":"fdb5ee7a-f234-4723-a814-695a0c6a581a","status":"success","components":{"image":{"height":"50","width":"300","url":"http:\/\/r.w.inmobi.com\/FileData\/3941cc82-c052-49f3-98be-a1748c62938e9.jpg"},"beacons":{"numBeacons":"1","beacon1":"http:\/\/adfonic.net\/bc\/04e27180-61ab-4d23-92bd-f56cd78280cb\/fdb5ee7a-f234-4723-a814-695a0c6a581a.gif"}},"format":"banner","destination":{"type":"UNKNOWN","url":"http:\/\/adfonic.net\/ct\/04e27180-61ab-4d23-92bd-f56cd78280cb\/fdb5ee7a-f234-4723-a814-695a0c6a581a"}}
+01-19 15:13:32.432 I/ActivityManager(  233): Process com.yahoo.mobile.client.android.yahoo (pid 2613) has died.
+01-19 15:13:32.492 I/ActivityManager(  233): Process com.sonyericsson.widget.togglewidgets (pid 12002) has died.
+01-19 15:13:32.502 W/kernel  (  130): [263175.571380] select 11985 (n.customization), adj 7, size 3581, to kill
+01-19 15:13:32.502 W/kernel  (  130): [263175.571441] select 12002 (t.togglewidgets), adj 8, size 3528, to kill
+01-19 15:13:32.502 W/kernel  (  130): [263175.571472] send sigkill to 12002 (t.togglewidgets), adj 8, size 3528
+01-19 15:13:32.592 I/ActivityManager(  233): Process com.sonyericsson.widgets (pid 12010) has died.
+01-19 15:13:32.602 W/kernel  (  130): [263175.673278] select 11985 (n.customization), adj 7, size 3581, to kill
+01-19 15:13:32.602 W/kernel  (  130): [263175.673309] select 12010 (ricsson.widgets), adj 8, size 3513, to kill
+01-19 15:13:32.602 W/kernel  (  130): [263175.673309] send sigkill to 12010 (ricsson.widgets), adj 8, size 3513
+01-19 15:13:32.692 I/ActivityManager(  233): Process com.android.email (pid 12033) has died.
+01-19 15:13:32.702 W/kernel  (  130): [263175.771179] select 11985 (n.customization), adj 7, size 3581, to kill
+01-19 15:13:32.702 W/kernel  (  130): [263175.771209] select 12026 (id.logcollector), adj 7, size 5039, to kill
+01-19 15:13:32.702 W/kernel  (  130): [263175.771209] select 12033 (m.android.email), adj 7, size 5203, to kill
+01-19 15:13:32.702 W/kernel  (  130): [263175.771240] send sigkill to 12033 (m.android.email), adj 7, size 5203
+01-19 15:13:32.712 I/ActivityManager(  233): Start proc android.process.media for content provider com.android.providers.downloads/.DownloadProvider: pid=12088 uid=10002 gids={1015, 2001, 3003}
+01-19 15:13:32.762 D/Finsky  (12067): [1] SanityChecker.run: # LocalAssets corrected : 0
+01-19 15:13:32.762 D/Finsky  (12067): Sanity check took : 630 ms
+01-19 15:13:32.832 I/ActivityThread(12088): Pub downloads: com.android.providers.downloads.DownloadProvider
+01-19 15:13:32.882 I/ActivityThread(12088): Pub drm: com.android.providers.drm.DrmProvider
+01-19 15:13:32.892 I/ActivityThread(12088): Pub media: com.android.providers.media.MediaProvider
+01-19 15:13:32.922 V/MediaProvider(12088): Attached volume: internal
+01-19 15:13:32.922 V/MediaProvider(12088): /mnt/sdcard volume ID: 1138963242
+01-19 15:13:32.982 V/MediaProvider(12088): Attached volume: external
+01-19 15:13:33.022 D/Finsky  (12067): [22] DownloadRecords.initializeAndPrune: Pruned 0 old downloads from the cursor.
+01-19 15:13:33.212 D/dalvikvm(  233): GC_EXPLICIT freed 279K, 47% free 8845K/16519K, external 9110K/11158K, paused 89ms
+01-19 15:13:38.182 D/CustomizationProvider(11985): openFile -- START uri=content://com.sonyericsson.provider.customization/settings/com.sonyericsson.textinput.uxp
+01-19 15:13:38.182 I/CustomizationProvider(11985): No configuration file: /system/etc/customization/settings/com/sonyericsson/textinput/uxp/custom_settings.xml
+01-19 15:13:38.292 D/CustomizationProvider(11985): openFile -- START uri=content://com.sonyericsson.provider.customization/settings/com.sonyericsson.textinput.uxp
+01-19 15:13:38.302 I/CustomizationProvider(11985): No configuration file: /system/etc/customization/settings/com/sonyericsson/textinput/uxp/custom_settings.xml
+01-19 15:13:38.762 D/CustomizationProvider(11985): openFile -- START uri=content://com.sonyericsson.provider.customization/settings/com.sonyericsson.textinput.uxp
+01-19 15:13:38.762 I/CustomizationProvider(11985): No configuration file: /system/etc/customization/settings/com/sonyericsson/textinput/uxp/custom_settings.xml
+01-19 15:13:38.852 D/CustomizationProvider(11985): openFile -- START uri=content://com.sonyericsson.provider.customization/settings/com.sonyericsson.textinput.uxp
+01-19 15:13:38.852 I/CustomizationProvider(11985): No configuration file: /system/etc/customization/settings/com/sonyericsson/textinput/uxp/custom_settings.xml
+01-19 15:13:39.052 D/CustomizationProvider(11985): openFile -- START uri=content://com.sonyericsson.provider.customization/settings/com.sonyericsson.textinput.uxp
+01-19 15:13:39.052 I/CustomizationProvider(11985): No configuration file: /system/etc/customization/settings/com/sonyericsson/textinput/uxp/custom_settings.xml
+01-19 15:13:39.232 D/CustomizationProvider(11985): openFile -- START uri=content://com.sonyericsson.provider.customization/settings/com.sonyericsson.textinput.uxp
+01-19 15:13:39.232 I/CustomizationProvider(11985): No configuration file: /system/etc/customization/settings/com/sonyericsson/textinput/uxp/custom_settings.xml
+01-19 15:13:39.272 I/ActivityManager(  233): Start proc com.android.email for activity com.android.email/.activity.MessageCompose: pid=12096 uid=10001 gids={3003, 1015}
+01-19 15:13:39.342 I/ActivityManager(  233): Displayed com.xtralogic.android.logcollector/.SendLogActivity: +33s302ms (total +70ms)
+01-19 15:13:39.352 W/IInputConnectionWrapper( 2388): getTextBeforeCursor on inactive InputConnection
+01-19 15:13:39.372 W/IInputConnectionWrapper( 2388): getExtractedText on inactive InputConnection
+01-19 15:13:39.392 W/IInputConnectionWrapper( 2388): showStatusIcon on inactive InputConnection
+01-19 15:13:39.412 D/webviewglue( 2388): nativeDestroy view: 0xaddbf0
+01-19 15:13:39.442 D/CustomizationProvider(11985): openFile -- START uri=content://com.sonyericsson.provider.customization/settings/com.sonyericsson.textinput.uxp
+01-19 15:13:39.442 I/CustomizationProvider(11985): No configuration file: /system/etc/customization/settings/com/sonyericsson/textinput/uxp/custom_settings.xml
+01-19 15:13:39.452 I/ActivityThread(12096): Pub com.android.exchange.provider: com.android.exchange.provider.ExchangeProvider
+01-19 15:13:39.452 I/ActivityThread(12096): Pub com.android.email.provider: com.android.email.provider.EmailProvider
+01-19 15:13:39.462 I/ActivityThread(12096): Pub com.android.email.attachmentprovider: com.android.email.provider.AttachmentProvider
+01-19 15:13:39.642 D/dalvikvm(12096): GC_CONCURRENT freed 146K, 47% free 2946K/5511K, external 3294K/4104K, paused 8ms+4ms
+01-19 15:13:39.822 D/dalvikvm(12096): GC_FOR_MALLOC freed 450K, 45% free 3492K/6343K, external 4019K/4104K, paused 16ms
+01-19 15:13:39.842 D/EAS SyncManager(12096): !!! EAS SyncManager, onCreate
+01-19 15:13:39.842 D/EAS SyncManager(12096): !!! EAS SyncManager, onBind
+01-19 15:13:39.852 D/EAS SyncManager(12096): !!! EAS SyncManager, stopping self
+01-19 15:13:40.272 W/kernel  (  130): [263183.334716] select 11985 (n.customization), adj 7, size 3587, to kill
+01-19 15:13:40.272 W/kernel  (  130): [263183.334777] select 12067 (android.vending), adj 8, size 5486, to kill
+01-19 15:13:40.272 W/kernel  (  130): [263183.334838] send sigkill to 12067 (android.vending), adj 8, size 5486
+01-19 15:13:40.302 I/ActivityManager(  233): Process com.android.vending (pid 12067) has died.
+01-19 15:13:40.402 W/kernel  (  130): [263183.470275] select 11985 (n.customization), adj 7, size 3587, to kill
+01-19 15:13:40.402 W/kernel  (  130): [263183.470275] select 12088 (d.process.media), adj 7, size 4424, to kill
+01-19 15:13:40.402 W/kernel  (  130): [263183.470306] send sigkill to 12088 (d.process.media), adj 7, size 4424
+01-19 15:13:40.432 I/ActivityManager(  233): Process android.process.media (pid 12088) has died.
+01-19 15:13:40.492 I/ActivityManager(  233): Process com.sonyericsson.customization (pid 11985) has died.
+01-19 15:13:40.492 I/ActivityManager(  233): Low Memory: No more background processes.
+01-19 15:13:40.502 W/kernel  (  130): [263183.571105] select 11985 (n.customization), adj 7, size 3587, to kill
+01-19 15:13:40.502 W/kernel  (  130): [263183.571136] send sigkill to 11985 (n.customization), adj 7, size 3587
+01-19 15:13:40.842 D/Eas Debug(12096): Logging: 
+01-19 15:13:40.912 D/dalvikvm(12096): GC_CONCURRENT freed 1500K, 54% free 3508K/7495K, external 4019K/4104K, paused 4ms+3ms
+01-19 15:13:41.272 I/ActivityManager(  233): Displayed com.android.email/.activity.MessageCompose: +34s923ms (total +1s899ms)
+01-19 15:13:41.282 D/EAS SyncManager(12096): !!! EAS SyncManager, onDestroy
+01-19 15:13:46.562 W/SemcMusicPlayer(30673): Running low on memory in MediaPlaybackServiceImpl.
+01-19 15:13:46.652 D/dalvikvm(30673): GC_EXPLICIT freed 6K, 61% free 3013K/7687K, external 4053K/5062K, paused 86ms
+01-19 15:13:53.792 I/EventLogService(  374): Aggregate from 1326964433726 (log), 1326964433726 (data)
+01-19 15:14:08.882 D/skia    ( 2388): purging 66K from font cache [9 entries]
+01-19 15:14:08.972 D/dalvikvm( 2388): GC_EXPLICIT freed 966K, 54% free 3983K/8647K, external 7007K/7471K, paused 85ms
+01-19 15:14:14.952 D/skia    (  233): purging 205K from font cache [19 entries]
+01-19 15:14:15.112 D/dalvikvm(  233): GC_EXPLICIT freed 239K, 47% free 8832K/16519K, external 9110K/11158K, paused 155ms
+01-19 15:14:15.392 I/AudioService(  233):  AudioFocus  abandonAudioFocus() from android.media.AudioManager@2b3087e0
+01-19 15:14:15.562 D/dalvikvm(  305): GC_CONCURRENT freed 189K, 56% free 3225K/7303K, external 3872K/4147K, paused 2ms+4ms
+01-19 15:14:15.932 W/InputManagerService(  233): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@2b6f3800
+01-19 15:14:27.772 D/dalvikvm(  336): GC_EXPLICIT freed 272K, 57% free 3944K/8967K, external 8808K/10846K, paused 102ms
+01-19 15:14:31.695 D/lights  (  233): set_light_buttons: brightness=255
+01-19 15:14:31.702 W/KeyCharacterMap(12026): Can't open keycharmap file
+01-19 15:14:31.702 W/KeyCharacterMap(12026): Error loading keycharmap file '/system/usr/keychars/pm8058-keypad.kcm.bin'. hw.keyboards.0.devname='pm8058-keypad'
+01-19 15:14:31.712 W/KeyCharacterMap(12026): Using default keymap: /system/usr/keychars/qwerty.kcm.bin
+01-19 15:14:31.772 I/InputQueue-JNI(12026): Sending finished signal for input channel '2b02df78 com.xtralogic.android.logcollector/com.xtralogic.android.logcollector.SendLogActivity (client)' since it is being unregistered while an input message is still in progress.
+01-19 15:14:31.782 I/InputQueue-JNI(12026): Ignoring finish signal on channel that is no longer registered.
+01-19 15:14:31.832 I/ActivityManager(  233): Start proc com.sonyericsson.customization for content provider com.sonyericsson.provider.customization/.CustomizationProvider: pid=12114 uid=10063 gids={}
+01-19 15:14:31.862 I/ActivityThread(12114): Pub com.sonyericsson.provider.customization: com.sonyericsson.provider.customization.CustomizationProvider
+01-19 15:14:31.862 I/ActivityThread(12114): Pub com.sonyericsson.provider.useragent: com.sonyericsson.provider.useragent.UserAgentProvider
+01-19 15:14:31.872 D/CustomizationProvider(12114): openFile -- START uri=content://com.sonyericsson.provider.customization/settings/com.sonyericsson.provider.useragent
+01-19 15:14:31.872 I/CustomizationProvider(12114): No configuration file: /system/etc/customization/settings/com/sonyericsson/provider/useragent/custom_settings.xml
+01-19 15:14:31.882 W/UserAgentProvider(12114): onCreatejava.io.FileNotFoundException
+01-19 15:14:31.882 D/CustomizationProvider(12114): openFile -- START uri=content://com.sonyericsson.provider.customization/settings/com.sonyericsson.textinput.uxp
+01-19 15:14:31.882 I/CustomizationProvider(12114): No configuration file: /system/etc/customization/settings/com/sonyericsson/textinput/uxp/custom_settings.xml
+01-19 15:14:31.972 W/KeyCharacterMap(12096): Can't open keycharmap file
+01-19 15:14:31.972 W/KeyCharacterMap(12096): Error loading keycharmap file '/system/usr/keychars/pm8058-keypad.kcm.bin'. hw.keyboards.0.devname='pm8058-keypad'
+01-19 15:14:31.972 W/KeyCharacterMap(12096): Using default keymap: /system/usr/keychars/qwerty.kcm.bin
+01-19 15:14:32.432 D/dalvikvm(10043): GC_CONCURRENT freed 374K, 56% free 2991K/6727K, external 1685K/2133K, paused 8ms+10ms
+01-19 15:14:37.172 D/dalvikvm(12096): GC_CONCURRENT freed 70K, 53% free 3544K/7495K, external 4396K/5490K, paused 3ms+8ms
+01-19 15:14:37.612 W/kernel  (  130): [263240.683685] select 9711 (com.whatsapp), adj 8, size 3979, to kill
+01-19 15:14:37.612 W/kernel  (  130): [263240.683776] send sigkill to 9711 (com.whatsapp), adj 8, size 3979
+01-19 15:14:37.612 I/ActivityManager(  233): Process com.whatsapp (pid 9711) has died.
+01-19 15:14:37.612 W/ActivityManager(  233): Scheduling restart of crashed service com.whatsapp/.messaging.MessageService in 5000ms
+01-19 15:14:42.622 I/ActivityManager(  233): Start proc com.whatsapp for service com.whatsapp/.messaging.MessageService: pid=12122 uid=10126 gids={1015, 3003}
+01-19 15:14:43.172 I/dalvikvm(12122): Could not find method android.media.MediaMetadataRetriever.captureFrame, referenced from method com.whatsapp.x6.a
+01-19 15:14:43.172 W/dalvikvm(12122): VFY: unable to resolve virtual method 453: Landroid/media/MediaMetadataRetriever;.captureFrame ()Landroid/graphics/Bitmap;
+01-19 15:14:43.172 D/dalvikvm(12122): VFY: replacing opcode 0x6e at 0x012f
+01-19 15:14:43.172 D/dalvikvm(12122): VFY: dead code 0x0132-0138 in Lcom/whatsapp/x6;.a (Landroid/app/Activity;Lcom/whatsapp/rn;Ljava/lang/String;Ljava/io/File;BLjava/lang/String;)Z
+01-19 15:14:43.742 W/kernel  (  130): [263246.818084] select 12026 (id.logcollector), adj 7, size 5109, to kill
+01-19 15:14:43.742 W/kernel  (  130): [263246.818115] send sigkill to 12026 (id.logcollector), adj 7, size 5109
+01-19 15:14:43.742 I/ActivityManager(  233): Process com.xtralogic.android.logcollector (pid 12026) has died.
+01-19 15:14:43.752 D/dalvikvm(12122): GC_CONCURRENT freed 776K, 48% free 3581K/6791K, external 1685K/2133K, paused 3ms+6ms
+01-19 15:14:43.842 I/ActivityManager(  233): Process com.sonyericsson.customization (pid 12114) has died.
+01-19 15:14:43.842 I/ActivityManager(  233): Low Memory: No more background processes.
+01-19 15:14:43.852 W/kernel  (  130): [263246.922485] select 12114 (n.customization), adj 7, size 3894, to kill
+01-19 15:14:43.852 W/kernel  (  130): [263246.922485] send sigkill to 12114 (n.customization), adj 7, size 3894
+01-19 15:14:58.652 D/skia    (  305): purging 119K from font cache [13 entries]
+01-19 15:14:58.692 D/dalvikvm(  305): GC_EXPLICIT freed 20K, 56% free 3218K/7303K, external 3297K/4118K, paused 39ms
+01-19 15:15:06.752 D/dalvikvm(24581): GC_EXPLICIT freed 2K, 51% free 2838K/5767K, external 1685K/2133K, paused 77ms
+01-19 15:15:07.522 W/InputManagerService(  233): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@2b5e2a28 (uid=10001 pid=12096)
+01-19 15:15:07.532 W/IInputConnectionWrapper(12096): showStatusIcon on inactive InputConnection
+01-19 15:15:07.582 I/ActivityManager(  233): Start proc com.sonyericsson.customization for content provider com.sonyericsson.provider.customization/.CustomizationProvider: pid=12136 uid=10063 gids={}
+01-19 15:15:08.052 I/ActivityThread(12136): Pub com.sonyericsson.provider.customization: com.sonyericsson.provider.customization.CustomizationProvider
+01-19 15:15:08.072 I/ActivityThread(12136): Pub com.sonyericsson.provider.useragent: com.sonyericsson.provider.useragent.UserAgentProvider
+01-19 15:15:08.092 D/CustomizationProvider(12136): openFile -- START uri=content://com.sonyericsson.provider.customization/settings/com.sonyericsson.provider.useragent
+01-19 15:15:08.092 I/CustomizationProvider(12136): No configuration file: /system/etc/customization/settings/com/sonyericsson/provider/useragent/custom_settings.xml
+01-19 15:15:08.092 W/UserAgentProvider(12136): onCreatejava.io.FileNotFoundException
+01-19 15:15:08.102 D/CustomizationProvider(12136): openFile -- START uri=content://com.sonyericsson.provider.customization/settings/com.sonyericsson.textinput.uxp
+01-19 15:15:08.102 I/CustomizationProvider(12136): No configuration file: /system/etc/customization/settings/com/sonyericsson/textinput/uxp/custom_settings.xml
+01-19 15:15:08.112 D/dalvikvm(  121): GC_EXPLICIT freed 11K, 49% free 2762K/5379K, external 1685K/2133K, paused 543ms
+01-19 15:15:08.142 D/dalvikvm(  121): GC_EXPLICIT freed <1K, 49% free 2762K/5379K, external 1685K/2133K, paused 24ms
+01-19 15:15:08.172 D/dalvikvm(  121): GC_EXPLICIT freed <1K, 49% free 2762K/5379K, external 1685K/2133K, paused 28ms
+01-19 15:15:08.232 D/webviewglue(12096): nativeDestroy view: 0x383260
+01-19 15:15:08.382 D/dalvikvm( 1093): GC_CONCURRENT freed 1253K, 54% free 3412K/7367K, external 4245K/5302K, paused 2ms+4ms
+01-19 15:15:14.892 W/SemcMusicPlayer(30673): Running low on memory in MediaPlaybackServiceImpl.
+01-19 15:15:14.982 D/dalvikvm(30673): GC_EXPLICIT freed <1K, 61% free 3013K/7687K, external 4053K/5062K, paused 85ms
+01-19 15:15:15.554 I/ActivityManager(  233): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.xtralogic.android.logcollector/.SendLogActivity bnds=[125,115][238,273] } from pid 11968
+01-19 15:15:15.652 I/ActivityManager(  233): Start proc com.xtralogic.android.logcollector for activity com.xtralogic.android.logcollector/.SendLogActivity: pid=12146 uid=10173 gids={1007, 1015}
+01-19 15:15:15.882 W/kernel  (  130): [263278.947540] select 12096 (m.android.email), adj 7, size 10519, to kill
+01-19 15:15:15.882 W/kernel  (  130): [263278.947540] send sigkill to 12096 (m.android.email), adj 7, size 10519
+01-19 15:15:15.922 I/ActivityManager(  233): Displayed com.xtralogic.android.logcollector/.SendLogActivity: +272ms
+01-19 15:15:15.932 I/ActivityManager(  233): Process com.android.email (pid 12096) has died.
+01-19 15:15:21.562 D/lights  (  233): set_light_buttons: brightness=0
+01-19 15:15:24.992 D/dalvikvm( 2388): GC_EXPLICIT freed 779K, 62% free 3292K/8647K, external 4958K/6192K, paused 96ms
+01-19 15:15:35.062 D/dalvikvm(  233): GC_EXPLICIT freed 435K, 47% free 8861K/16519K, external 7501K/9367K, paused 100ms
+01-19 15:15:44.992 D/dalvikvm(  336): GC_EXPLICIT freed 2K, 57% free 3944K/8967K, external 8808K/10846K, paused 51ms
+01-19 15:15:54.992 D/dalvikvm(  544): GC_EXPLICIT freed 419K, 51% free 3640K/7367K, external 1685K/2133K, paused 51ms
+01-19 15:16:06.272 D/skia    ( 1093): purging 136K from font cache [9 entries]
+01-19 15:16:06.352 D/dalvikvm( 1093): GC_EXPLICIT freed 116K, 56% free 3296K/7367K, external 2773K/3463K, paused 83ms
+01-19 15:16:08.642 D/dalvikvm(12146): GC_CONCURRENT freed 87K, 48% free 2848K/5379K, external 2477K/3094K, paused 8ms+12ms
